@@ -2,5 +2,5 @@ system_role=You are an AI solutions architect tasked with providing recommendati
 model=mixtral-8x7b-32768
 max_tokens=4000
 temperature=0.7
-api_key=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
-api_url=https://api.groq.com/openai/v1/chat/completions
+api_key= YOUR API KEY
+api_url=URL
