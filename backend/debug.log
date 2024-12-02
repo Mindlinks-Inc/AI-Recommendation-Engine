@@ -1,0 +1,1892 @@
+[2024-10-16 10:22:57] Script started
+[2024-10-16 10:22:57] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => Jai 
+    [last_name] => Prakash R
+    [company_name] => Stark industries
+    [job_role] => Web Developer
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 759566
+)
+
+[2024-10-16 10:22:57] Database connected successfully
+[2024-10-16 10:22:57] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => Jai
+    [lastName] => Prakash R
+    [companyName] => Stark industries
+    [jobRole] => Web Developer
+    [mobileNumber] => 
+)
+
+[2024-10-16 10:22:57] New user, inserting record
+[2024-10-16 10:22:57] Database operation successful. User ID: 144
+[2024-10-16 10:22:57] Script ended
+[2024-10-16 10:47:22] Script started
+[2024-10-16 10:47:22] POST data: Array
+(
+)
+
+[2024-10-16 10:47:22] Database connected successfully
+[2024-10-16 10:47:22] Invalid request method: GET
+[2024-10-16 10:47:22] Script ended
+[2024-10-16 10:49:39] Script started
+[2024-10-16 10:49:39] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => Jai 
+    [last_name] => Prakash R
+    [company_name] => Nuerolinks 
+    [job_role] => CEO 
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 585028
+)
+
+[2024-10-16 10:49:39] Database connected successfully
+[2024-10-16 10:49:39] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => Jai
+    [lastName] => Prakash R
+    [companyName] => Nuerolinks
+    [jobRole] => CEO
+    [mobileNumber] => 
+)
+
+[2024-10-16 10:49:39] New user, inserting record
+[2024-10-16 10:49:39] Database operation successful. User ID: 145
+[2024-10-16 10:49:39] Script ended
+[2024-10-17 05:42:46] Script started
+[2024-10-17 05:42:46] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => Jai 
+    [last_name] => Prakash R
+    [company_name] => Neuralroots
+    [job_role] => CEO
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 505862
+)
+
+[2024-10-17 05:42:46] Database connected successfully
+[2024-10-17 05:42:46] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => Jai
+    [lastName] => Prakash R
+    [companyName] => Neuralroots
+    [jobRole] => CEO
+    [mobileNumber] => 
+)
+
+[2024-10-17 05:42:46] New user, inserting record
+[2024-10-17 05:42:46] Database operation successful. User ID: 146
+[2024-10-17 05:42:46] Script ended
+[2024-10-17 09:30:04] Script started
+[2024-10-17 09:30:04] Database connection established
+[2024-10-17 09:30:04] POST request received
+[2024-10-17 09:30:04] Form data processed. Columns to add: user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments
+[2024-10-17 09:30:04] Column user_id already exists
+[2024-10-17 09:30:04] Column brief already exists
+[2024-10-17 09:30:04] Column company_size already exists
+[2024-10-17 09:30:04] Column cbc already exists
+[2024-10-17 09:30:04] Column ib already exists
+[2024-10-17 09:30:04] Column ai_outcomes already exists
+[2024-10-17 09:30:04] Column customer_service already exists
+[2024-10-17 09:30:04] Column sales_marketing already exists
+[2024-10-17 09:30:04] Column operations_logistics already exists
+[2024-10-17 09:30:04] Column product_development already exists
+[2024-10-17 09:30:04] Column financial_management already exists
+[2024-10-17 09:30:04] Column existing_ai_ml already exists
+[2024-10-17 09:30:04] Column specify_ai_ml_textarea already exists
+[2024-10-17 09:30:04] Column ai_concerns already exists
+[2024-10-17 09:30:04] Column ai_capabilities already exists
+[2024-10-17 09:30:04] Column ai_investment_readiness already exists
+[2024-10-17 09:30:04] Column ai_implementation_approach already exists
+[2024-10-17 09:30:04] Column additional_comments already exists
+[2024-10-17 09:30:04] SQL Query: INSERT INTO kit_details (user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments, ip_address, user_agent, submission_date) VALUES ('', 'z', '201-500', 'zz', 'zz', 'Cost Reduction', '3', '3', '3', '3', '3', 'No', '', 'Cost, Integration Complexity', 'Predictive Analytics, Natural Language Processing', 'Ready to Invest', 'Build In-house', 'zz', '2401:4900:883a:a822:2c71:80db:da4a:78f8', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36', '2024-10-17 09:30:04')
+[2024-10-17 09:30:04] Data inserted successfully
+[2024-10-17 09:30:04] Company name retrieved: Neuralroots
+[2024-10-17 09:30:04] User and kit data fetched
+[2024-10-17 09:30:04] Company data prepared for AI recommendations
+[2024-10-17 09:30:04] JSON data saved to database
+[2024-10-17 09:30:04] Generating AI recommendations
+[2024-10-17 09:30:05] AI recommendations generated successfully
+[2024-10-17 09:30:05] Generating PDF
+[2024-10-17 09:30:05] Generating PDF for Neuralroots
+[2024-10-17 09:30:05] PDF generated successfully
+[2024-10-17 09:30:05] PDF generated
+[2024-10-17 09:30:05] PDF content updated in database
+[2024-10-17 09:30:05] Creating HTML
+[2024-10-17 09:30:05] HTML file created successfully: /home/u783522058/domains/neuralroots.ai/public_html//Assesment-Templates/backend/htmlfiles/ai_recommendations_neuralroots_2024-10-17_09-30-05.html
+[2024-10-17 09:30:45] Script started
+[2024-10-17 09:30:45] Database connection established
+[2024-10-17 09:30:45] PDF download requested
+[2024-10-17 09:30:45] PDF content retrieved. Size: 24107 bytes
+[2024-10-17 09:30:45] PDF sent successfully
+[2024-10-17 09:46:33] Script started
+[2024-10-17 09:46:33] Database connection established
+[2024-10-17 09:46:33] POST request received
+[2024-10-17 09:46:33] Form data processed. Columns to add: user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments
+[2024-10-17 09:46:33] Column user_id already exists
+[2024-10-17 09:46:33] Column brief already exists
+[2024-10-17 09:46:33] Column company_size already exists
+[2024-10-17 09:46:33] Column cbc already exists
+[2024-10-17 09:46:33] Column ib already exists
+[2024-10-17 09:46:33] Column ai_outcomes already exists
+[2024-10-17 09:46:33] Column customer_service already exists
+[2024-10-17 09:46:33] Column sales_marketing already exists
+[2024-10-17 09:46:33] Column operations_logistics already exists
+[2024-10-17 09:46:33] Column product_development already exists
+[2024-10-17 09:46:33] Column financial_management already exists
+[2024-10-17 09:46:33] Column existing_ai_ml already exists
+[2024-10-17 09:46:33] Column specify_ai_ml_textarea already exists
+[2024-10-17 09:46:33] Column ai_concerns already exists
+[2024-10-17 09:46:33] Column ai_capabilities already exists
+[2024-10-17 09:46:33] Column ai_investment_readiness already exists
+[2024-10-17 09:46:33] Column ai_implementation_approach already exists
+[2024-10-17 09:46:33] Column additional_comments already exists
+[2024-10-17 09:46:33] SQL Query: INSERT INTO kit_details (user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments, ip_address, user_agent, submission_date) VALUES ('Not available', 'TechSpark is a growing AI-powered healthcare technology company focused on developing diagnostic tools for early disease detection and personalized medicine. We\'re currently expanding our market presence in the Asia-Pacific region and forming strategic partnerships with leading medical research institutions. Our goals include achieving 20% revenue growth, launching three new AI-powered diagnostic tools, and maintaining high customer satisfaction.', '11-50', 'Product Development: Developing AI-powered diagnostic tools for early disease detection.\r\nMarket Expansion: Expanding sales and marketing efforts in Asia-Pacific.\r\nPartnerships: Forming strategic partnerships with medical research institutions.\r\nRevenue Growth: Aiming for 20% growth in 12 months.\r\nProduct Innovation: Launch three new AI tools in 18 months.\r\nCustomer Satisfaction: Maintain 90%+ satisfaction rating.\r\nChallenges: Ensuring data quality, navigating regulatory compliance, and attracting top AI/ML talent.', 'Manual Data Annotation: Leading to delays and increased costs.\r\nModel Training Time: Requires significant computational resources.\r\nCustomer Support: High volumes causing longer response times.', 'Cost Reduction, Increased Efficiency', '3', '3', '2', '3', '3', 'Yes', 'We currently use machine learning algorithms for image analysis in our diagnostic tools and natural language processing for analyzing medical records.', 'Cost, Integration Complexity', 'Natural Language Processing', 'Ready to Invest', 'Build In-house', 'We are exploring transfer learning to accelerate model training. \r\nWe\'re interested in integrating our AI diagnostic tools with electronic health records (EHRs).\r\nWe seek partnerships with leading AI/ML research institutions to advance our technology and improve patient outcomes.', '2401:4900:883a:a822:2c71:80db:da4a:78f8', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36', '2024-10-17 09:46:33')
+[2024-10-17 09:46:33] Data inserted successfully
+[2024-10-17 09:46:33] Company name retrieved: Neuralroots
+[2024-10-17 09:46:33] User and kit data fetched
+[2024-10-17 09:46:33] Company data prepared for AI recommendations
+[2024-10-17 09:46:33] JSON data saved to database
+[2024-10-17 09:46:33] Generating AI recommendations
+[2024-10-17 09:46:35] AI recommendations generated successfully
+[2024-10-17 09:46:35] Generating PDF
+[2024-10-17 09:46:35] Generating PDF for Neuralroots
+[2024-10-17 09:46:35] PDF generated successfully
+[2024-10-17 09:46:35] PDF generated
+[2024-10-17 09:46:35] PDF content updated in database
+[2024-10-17 09:46:35] Creating HTML
+[2024-10-17 09:46:35] HTML file created successfully: /home/u783522058/domains/neuralroots.ai/public_html//Assesment-Templates/backend/htmlfiles/ai_recommendations_neuralroots_2024-10-17_09-46-35.html
+[2024-10-17 09:46:49] Script started
+[2024-10-17 09:46:49] Database connection established
+[2024-10-17 09:46:49] PDF download requested
+[2024-10-17 09:46:49] PDF content retrieved. Size: 25360 bytes
+[2024-10-17 09:46:49] PDF sent successfully
+[2024-10-17 09:47:15] Script started
+[2024-10-17 09:47:15] Database connection established
+[2024-10-17 09:47:15] POST request received
+[2024-10-17 09:47:15] Form data processed. Columns to add: user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments
+[2024-10-17 09:47:15] Column user_id already exists
+[2024-10-17 09:47:15] Column brief already exists
+[2024-10-17 09:47:15] Column company_size already exists
+[2024-10-17 09:47:15] Column cbc already exists
+[2024-10-17 09:47:15] Column ib already exists
+[2024-10-17 09:47:15] Column ai_outcomes already exists
+[2024-10-17 09:47:15] Column customer_service already exists
+[2024-10-17 09:47:15] Column sales_marketing already exists
+[2024-10-17 09:47:15] Column operations_logistics already exists
+[2024-10-17 09:47:15] Column product_development already exists
+[2024-10-17 09:47:15] Column financial_management already exists
+[2024-10-17 09:47:15] Column existing_ai_ml already exists
+[2024-10-17 09:47:15] Column specify_ai_ml_textarea already exists
+[2024-10-17 09:47:15] Column ai_concerns already exists
+[2024-10-17 09:47:15] Column ai_capabilities already exists
+[2024-10-17 09:47:15] Column ai_investment_readiness already exists
+[2024-10-17 09:47:15] Column ai_implementation_approach already exists
+[2024-10-17 09:47:15] Column additional_comments already exists
+[2024-10-17 09:47:15] SQL Query: INSERT INTO kit_details (user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments, ip_address, user_agent, submission_date) VALUES ('Not available', 'TechSpark is a growing AI-powered healthcare technology company focused on developing diagnostic tools for early disease detection and personalized medicine. We\'re currently expanding our market presence in the Asia-Pacific region and forming strategic partnerships with leading medical research institutions. Our goals include achieving 20% revenue growth, launching three new AI-powered diagnostic tools, and maintaining high customer satisfaction.', '11-50', 'Product Development: Developing AI-powered diagnostic tools for early disease detection.\r\nMarket Expansion: Expanding sales and marketing efforts in Asia-Pacific.\r\nPartnerships: Forming strategic partnerships with medical research institutions.\r\nRevenue Growth: Aiming for 20% growth in 12 months.\r\nProduct Innovation: Launch three new AI tools in 18 months.\r\nCustomer Satisfaction: Maintain 90%+ satisfaction rating.\r\nChallenges: Ensuring data quality, navigating regulatory compliance, and attracting top AI/ML talent.', 'Manual Data Annotation: Leading to delays and increased costs.\r\nModel Training Time: Requires significant computational resources.\r\nCustomer Support: High volumes causing longer response times.', 'Cost Reduction, Increased Efficiency', '3', '3', '2', '3', '3', 'Yes', 'We currently use machine learning algorithms for image analysis in our diagnostic tools and natural language processing for analyzing medical records.', 'Cost, Integration Complexity', 'Predictive Analytics', 'Ready to Invest', 'Build In-house', 'We are exploring transfer learning to accelerate model training. \r\nWe\'re interested in integrating our AI diagnostic tools with electronic health records (EHRs).\r\nWe seek partnerships with leading AI/ML research institutions to advance our technology and improve patient outcomes.', '2401:4900:883a:a822:2c71:80db:da4a:78f8', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36', '2024-10-17 09:47:15')
+[2024-10-17 09:47:15] Data inserted successfully
+[2024-10-17 09:47:15] Company name retrieved: Neuralroots
+[2024-10-17 09:47:15] User and kit data fetched
+[2024-10-17 09:47:15] Company data prepared for AI recommendations
+[2024-10-17 09:47:15] JSON data saved to database
+[2024-10-17 09:47:15] Generating AI recommendations
+[2024-10-17 09:47:17] AI recommendations generated successfully
+[2024-10-17 09:47:17] Generating PDF
+[2024-10-17 09:47:17] Generating PDF for Neuralroots
+[2024-10-17 09:47:17] PDF generated successfully
+[2024-10-17 09:47:17] PDF generated
+[2024-10-17 09:47:17] PDF content updated in database
+[2024-10-17 09:47:17] Creating HTML
+[2024-10-17 09:47:17] HTML file created successfully: /home/u783522058/domains/neuralroots.ai/public_html//Assesment-Templates/backend/htmlfiles/ai_recommendations_neuralroots_2024-10-17_09-47-17.html
+[2024-10-17 09:48:04] Script started
+[2024-10-17 09:48:04] Database connection established
+[2024-10-17 09:48:04] PDF download requested
+[2024-10-17 09:48:04] PDF content retrieved. Size: 24357 bytes
+[2024-10-17 09:48:04] PDF sent successfully
+[2024-10-17 09:49:05] Script started
+[2024-10-17 09:49:05] Database connection established
+[2024-10-17 09:49:05] POST request received
+[2024-10-17 09:49:05] Form data processed. Columns to add: user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments
+[2024-10-17 09:49:05] Column user_id already exists
+[2024-10-17 09:49:05] Column brief already exists
+[2024-10-17 09:49:05] Column company_size already exists
+[2024-10-17 09:49:05] Column cbc already exists
+[2024-10-17 09:49:05] Column ib already exists
+[2024-10-17 09:49:05] Column ai_outcomes already exists
+[2024-10-17 09:49:05] Column customer_service already exists
+[2024-10-17 09:49:05] Column sales_marketing already exists
+[2024-10-17 09:49:05] Column operations_logistics already exists
+[2024-10-17 09:49:05] Column product_development already exists
+[2024-10-17 09:49:05] Column financial_management already exists
+[2024-10-17 09:49:05] Column existing_ai_ml already exists
+[2024-10-17 09:49:05] Column specify_ai_ml_textarea already exists
+[2024-10-17 09:49:05] Column ai_concerns already exists
+[2024-10-17 09:49:05] Column ai_capabilities already exists
+[2024-10-17 09:49:05] Column ai_investment_readiness already exists
+[2024-10-17 09:49:05] Column ai_implementation_approach already exists
+[2024-10-17 09:49:05] Column additional_comments already exists
+[2024-10-17 09:49:05] SQL Query: INSERT INTO kit_details (user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments, ip_address, user_agent, submission_date) VALUES ('Not available', 'TechSpark is a growing AI-powered healthcare technology company focused on developing diagnostic tools for early disease detection and personalized medicine. We\'re currently expanding our market presence in the Asia-Pacific region and forming strategic partnerships with leading medical research institutions. Our goals include achieving 20% revenue growth, launching three new AI-powered diagnostic tools, and maintaining high customer satisfaction.', '11-50', 'Product Development: Developing AI-powered diagnostic tools for early disease detection.\r\nMarket Expansion: Expanding sales and marketing efforts in Asia-Pacific.\r\nPartnerships: Forming strategic partnerships with medical research institutions.\r\nRevenue Growth: Aiming for 20% growth in 12 months.\r\nProduct Innovation: Launch three new AI tools in 18 months.\r\nCustomer Satisfaction: Maintain 90%+ satisfaction rating.\r\nChallenges: Ensuring data quality, navigating regulatory compliance, and attracting top AI/ML talent.', 'Manual Data Annotation: Leading to delays and increased costs.\r\nModel Training Time: Requires significant computational resources.\r\nCustomer Support: High volumes causing longer response times.', 'Cost Reduction, Increased Efficiency', '3', '3', '2', '3', '3', 'Yes', 'We currently use machine learning algorithms for image analysis in our diagnostic tools and natural language processing for analyzing medical records.', 'Cost, Integration Complexity', 'Predictive Analytics', 'Ready to Invest', 'Build In-house', 'We are exploring transfer learning to accelerate model training. \r\nWe\'re interested in integrating our AI diagnostic tools with electronic health records (EHRs).\r\nWe seek partnerships with leading AI/ML research institutions to advance our technology and improve patient outcomes.', '2401:4900:883a:a822:2c71:80db:da4a:78f8', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36', '2024-10-17 09:49:05')
+[2024-10-17 09:49:05] Data inserted successfully
+[2024-10-17 09:49:05] Company name retrieved: Neuralroots
+[2024-10-17 09:49:05] User and kit data fetched
+[2024-10-17 09:49:05] Company data prepared for AI recommendations
+[2024-10-17 09:49:05] JSON data saved to database
+[2024-10-17 09:49:05] Generating AI recommendations
+[2024-10-17 09:49:07] AI recommendations generated successfully
+[2024-10-17 09:49:07] Generating PDF
+[2024-10-17 09:49:07] Generating PDF for Neuralroots
+[2024-10-17 09:49:07] PDF generated successfully
+[2024-10-17 09:49:07] PDF generated
+[2024-10-17 09:49:07] PDF content updated in database
+[2024-10-17 09:49:07] Creating HTML
+[2024-10-17 09:49:07] HTML file created successfully: /home/u783522058/domains/neuralroots.ai/public_html//Assesment-Templates/backend/htmlfiles/ai_recommendations_neuralroots_2024-10-17_09-49-07.html
+[2024-10-17 09:49:13] Script started
+[2024-10-17 09:49:13] Database connection established
+[2024-10-17 09:49:13] PDF download requested
+[2024-10-17 09:49:13] PDF content retrieved. Size: 24253 bytes
+[2024-10-17 09:49:13] PDF sent successfully
+[2024-10-17 10:10:39] Script started
+[2024-10-17 10:10:39] Database connection established
+[2024-10-17 10:10:39] TCPDF library loaded
+[2024-10-17 10:10:39] POST request received
+[2024-10-17 10:10:39] Form data processed. Columns to add: user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments
+[2024-10-17 10:10:39] Column user_id already exists
+[2024-10-17 10:10:39] Column brief already exists
+[2024-10-17 10:10:39] Column company_size already exists
+[2024-10-17 10:10:39] Column cbc already exists
+[2024-10-17 10:10:39] Column ib already exists
+[2024-10-17 10:10:39] Column ai_outcomes already exists
+[2024-10-17 10:10:39] Column customer_service already exists
+[2024-10-17 10:10:39] Column sales_marketing already exists
+[2024-10-17 10:10:39] Column operations_logistics already exists
+[2024-10-17 10:10:39] Column product_development already exists
+[2024-10-17 10:10:39] Column financial_management already exists
+[2024-10-17 10:10:39] Column existing_ai_ml already exists
+[2024-10-17 10:10:39] Column specify_ai_ml_textarea already exists
+[2024-10-17 10:10:39] Column ai_concerns already exists
+[2024-10-17 10:10:39] Column ai_capabilities already exists
+[2024-10-17 10:10:39] Column ai_investment_readiness already exists
+[2024-10-17 10:10:39] Column ai_implementation_approach already exists
+[2024-10-17 10:10:39] Column additional_comments already exists
+[2024-10-17 10:10:39] SQL Query: INSERT INTO kit_details (user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments, ip_address, user_agent, submission_date) VALUES ('Not available', 'TechSpark is a growing AI-powered healthcare technology company focused on developing diagnostic tools for early disease detection and personalized medicine. We\'re currently expanding our market presence in the Asia-Pacific region and forming strategic partnerships with leading medical research institutions. Our goals include achieving 20% revenue growth, launching three new AI-powered diagnostic tools, and maintaining high customer satisfaction.', '11-50', 'Product Development: Developing AI-powered diagnostic tools for early disease detection.\r\nMarket Expansion: Expanding sales and marketing efforts in Asia-Pacific.\r\nPartnerships: Forming strategic partnerships with medical research institutions.\r\nRevenue Growth: Aiming for 20% growth in 12 months.\r\nProduct Innovation: Launch three new AI tools in 18 months.\r\nCustomer Satisfaction: Maintain 90%+ satisfaction rating.\r\nChallenges: Ensuring data quality, navigating regulatory compliance, and attracting top AI/ML talent.', 'Manual Data Annotation: Leading to delays and increased costs.\r\nModel Training Time: Requires significant computational resources.\r\nCustomer Support: High volumes causing longer response times.', 'Cost Reduction, Increased Efficiency', '3', '3', '2', '3', '3', 'Yes', 'We currently use machine learning algorithms for image analysis in our diagnostic tools and natural language processing for analyzing medical records.', 'Cost', 'Predictive Analytics, Natural Language Processing', 'Ready to Invest', 'Build In-house', 'We are exploring transfer learning to accelerate model training. \r\nWe\'re interested in integrating our AI diagnostic tools with electronic health records (EHRs).\r\nWe seek partnerships with leading AI/ML research institutions to advance our technology and improve patient outcomes.', '2401:4900:883a:a822:2c71:80db:da4a:78f8', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36', '2024-10-17 10:10:39')
+[2024-10-17 10:10:39] Data inserted successfully
+[2024-10-17 10:10:39] Company name retrieved: Neuralroots
+[2024-10-17 10:10:39] User and kit data fetched
+[2024-10-17 10:10:39] Company data prepared for AI recommendations
+[2024-10-17 10:10:39] JSON data saved to database
+[2024-10-17 10:10:39] Generating AI recommendations
+[2024-10-17 10:10:41] AI recommendations generated successfully
+[2024-10-17 10:10:41] AI recommendations generated successfully
+[2024-10-17 10:10:41] Generating PDF
+[2024-10-17 10:10:41] Generating PDF for Neuralroots
+[2024-10-17 10:10:41] PDF generated successfully
+[2024-10-17 10:10:41] PDF generated
+[2024-10-17 10:10:41] PDF content updated in database
+[2024-10-17 10:10:41] Creating HTML
+[2024-10-17 10:10:41] HTML file created successfully: /home/u783522058/domains/neuralroots.ai/public_html//Assesment-Templates/backend/htmlfiles/ai_recommendations_neuralroots_2024-10-17_10-10-41.html
+[2024-10-17 10:10:43] Script started
+[2024-10-17 10:10:43] Database connection established
+[2024-10-17 10:10:43] TCPDF library loaded
+[2024-10-17 10:10:43] PDF download requested
+[2024-10-17 10:10:43] PDF content retrieved. Size: 24473 bytes
+[2024-10-17 10:10:43] PDF sent successfully
+[2024-10-17 10:11:02] Script started
+[2024-10-17 10:11:02] Database connection established
+[2024-10-17 10:11:02] TCPDF library loaded
+[2024-10-17 10:11:02] POST request received
+[2024-10-17 10:11:02] Form data processed. Columns to add: user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments
+[2024-10-17 10:11:02] Column user_id already exists
+[2024-10-17 10:11:02] Column brief already exists
+[2024-10-17 10:11:02] Column company_size already exists
+[2024-10-17 10:11:02] Column cbc already exists
+[2024-10-17 10:11:02] Column ib already exists
+[2024-10-17 10:11:02] Column ai_outcomes already exists
+[2024-10-17 10:11:02] Column customer_service already exists
+[2024-10-17 10:11:02] Column sales_marketing already exists
+[2024-10-17 10:11:02] Column operations_logistics already exists
+[2024-10-17 10:11:02] Column product_development already exists
+[2024-10-17 10:11:02] Column financial_management already exists
+[2024-10-17 10:11:02] Column existing_ai_ml already exists
+[2024-10-17 10:11:02] Column specify_ai_ml_textarea already exists
+[2024-10-17 10:11:02] Column ai_concerns already exists
+[2024-10-17 10:11:02] Column ai_capabilities already exists
+[2024-10-17 10:11:02] Column ai_investment_readiness already exists
+[2024-10-17 10:11:02] Column ai_implementation_approach already exists
+[2024-10-17 10:11:02] Column additional_comments already exists
+[2024-10-17 10:11:02] SQL Query: INSERT INTO kit_details (user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments, ip_address, user_agent, submission_date) VALUES ('Not available', 'TechSpark is a growing AI-powered healthcare technology company focused on developing diagnostic tools for early disease detection and personalized medicine. We\'re currently expanding our market presence in the Asia-Pacific region and forming strategic partnerships with leading medical research institutions. Our goals include achieving 20% revenue growth, launching three new AI-powered diagnostic tools, and maintaining high customer satisfaction.', '11-50', 'Product Development: Developing AI-powered diagnostic tools for early disease detection.\r\nMarket Expansion: Expanding sales and marketing efforts in Asia-Pacific.\r\nPartnerships: Forming strategic partnerships with medical research institutions.\r\nRevenue Growth: Aiming for 20% growth in 12 months.\r\nProduct Innovation: Launch three new AI tools in 18 months.\r\nCustomer Satisfaction: Maintain 90%+ satisfaction rating.\r\nChallenges: Ensuring data quality, navigating regulatory compliance, and attracting top AI/ML talent.', 'Manual Data Annotation: Leading to delays and increased costs.\r\nModel Training Time: Requires significant computational resources.\r\nCustomer Support: High volumes causing longer response times.', 'Cost Reduction, Increased Efficiency', '3', '3', '2', '3', '3', 'Yes', 'We currently use machine learning algorithms for image analysis in our diagnostic tools and natural language processing for analyzing medical records.', 'Cost, Integration Complexity', 'Predictive Analytics', 'Ready to Invest', 'Build In-house', 'We are exploring transfer learning to accelerate model training. \r\nWe\'re interested in integrating our AI diagnostic tools with electronic health records (EHRs).\r\nWe seek partnerships with leading AI/ML research institutions to advance our technology and improve patient outcomes.', '2401:4900:883a:a822:2c71:80db:da4a:78f8', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36', '2024-10-17 10:11:02')
+[2024-10-17 10:11:02] Data inserted successfully
+[2024-10-17 10:11:02] Company name retrieved: Neuralroots
+[2024-10-17 10:11:02] User and kit data fetched
+[2024-10-17 10:11:02] Company data prepared for AI recommendations
+[2024-10-17 10:11:02] JSON data saved to database
+[2024-10-17 10:11:02] Generating AI recommendations
+[2024-10-17 10:11:03] AI recommendations generated successfully
+[2024-10-17 10:11:03] AI recommendations generated successfully
+[2024-10-17 10:11:03] Generating PDF
+[2024-10-17 10:11:03] Generating PDF for Neuralroots
+[2024-10-17 10:11:03] PDF generated successfully
+[2024-10-17 10:11:03] PDF generated
+[2024-10-17 10:11:03] PDF content updated in database
+[2024-10-17 10:11:03] Creating HTML
+[2024-10-17 10:11:03] HTML file created successfully: /home/u783522058/domains/neuralroots.ai/public_html//Assesment-Templates/backend/htmlfiles/ai_recommendations_neuralroots_2024-10-17_10-11-03.html
+[2024-10-17 10:11:06] Script started
+[2024-10-17 10:11:06] Database connection established
+[2024-10-17 10:11:06] TCPDF library loaded
+[2024-10-17 10:11:06] PDF download requested
+[2024-10-17 10:11:06] PDF content retrieved. Size: 24434 bytes
+[2024-10-17 10:11:06] PDF sent successfully
+[2024-10-17 10:11:22] Script started
+[2024-10-17 10:11:22] Database connection established
+[2024-10-17 10:11:22] TCPDF library loaded
+[2024-10-17 10:11:22] POST request received
+[2024-10-17 10:11:22] Form data processed. Columns to add: user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments
+[2024-10-17 10:11:22] Column user_id already exists
+[2024-10-17 10:11:22] Column brief already exists
+[2024-10-17 10:11:22] Column company_size already exists
+[2024-10-17 10:11:22] Column cbc already exists
+[2024-10-17 10:11:22] Column ib already exists
+[2024-10-17 10:11:22] Column ai_outcomes already exists
+[2024-10-17 10:11:22] Column customer_service already exists
+[2024-10-17 10:11:22] Column sales_marketing already exists
+[2024-10-17 10:11:22] Column operations_logistics already exists
+[2024-10-17 10:11:22] Column product_development already exists
+[2024-10-17 10:11:22] Column financial_management already exists
+[2024-10-17 10:11:22] Column existing_ai_ml already exists
+[2024-10-17 10:11:22] Column specify_ai_ml_textarea already exists
+[2024-10-17 10:11:22] Column ai_concerns already exists
+[2024-10-17 10:11:22] Column ai_capabilities already exists
+[2024-10-17 10:11:22] Column ai_investment_readiness already exists
+[2024-10-17 10:11:22] Column ai_implementation_approach already exists
+[2024-10-17 10:11:22] Column additional_comments already exists
+[2024-10-17 10:11:22] SQL Query: INSERT INTO kit_details (user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments, ip_address, user_agent, submission_date) VALUES ('Not available', 'TechSpark is a growing AI-powered healthcare technology company focused on developing diagnostic tools for early disease detection and personalized medicine. We\'re currently expanding our market presence in the Asia-Pacific region and forming strategic partnerships with leading medical research institutions. Our goals include achieving 20% revenue growth, launching three new AI-powered diagnostic tools, and maintaining high customer satisfaction.', '11-50', 'Product Development: Developing AI-powered diagnostic tools for early disease detection.\r\nMarket Expansion: Expanding sales and marketing efforts in Asia-Pacific.\r\nPartnerships: Forming strategic partnerships with medical research institutions.\r\nRevenue Growth: Aiming for 20% growth in 12 months.\r\nProduct Innovation: Launch three new AI tools in 18 months.\r\nCustomer Satisfaction: Maintain 90%+ satisfaction rating.\r\nChallenges: Ensuring data quality, navigating regulatory compliance, and attracting top AI/ML talent.', 'Manual Data Annotation: Leading to delays and increased costs.\r\nModel Training Time: Requires significant computational resources.\r\nCustomer Support: High volumes causing longer response times.', 'Cost Reduction, Increased Efficiency', '3', '3', '2', '3', '3', 'Yes', 'We currently use machine learning algorithms for image analysis in our diagnostic tools and natural language processing for analyzing medical records.', 'Cost, Integration Complexity', 'Predictive Analytics', 'Ready to Invest', 'Build In-house', 'We are exploring transfer learning to accelerate model training. \r\nWe\'re interested in integrating our AI diagnostic tools with electronic health records (EHRs).\r\nWe seek partnerships with leading AI/ML research institutions to advance our technology and improve patient outcomes.', '2401:4900:883a:a822:2c71:80db:da4a:78f8', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36', '2024-10-17 10:11:22')
+[2024-10-17 10:11:22] Data inserted successfully
+[2024-10-17 10:11:22] Company name retrieved: Neuralroots
+[2024-10-17 10:11:22] User and kit data fetched
+[2024-10-17 10:11:22] Company data prepared for AI recommendations
+[2024-10-17 10:11:22] JSON data saved to database
+[2024-10-17 10:11:22] Generating AI recommendations
+[2024-10-17 10:11:23] AI recommendations generated successfully
+[2024-10-17 10:11:23] AI recommendations generated successfully
+[2024-10-17 10:11:23] Generating PDF
+[2024-10-17 10:11:23] Generating PDF for Neuralroots
+[2024-10-17 10:11:23] PDF generated successfully
+[2024-10-17 10:11:23] PDF generated
+[2024-10-17 10:11:23] PDF content updated in database
+[2024-10-17 10:11:23] Creating HTML
+[2024-10-17 10:11:23] HTML file created successfully: /home/u783522058/domains/neuralroots.ai/public_html//Assesment-Templates/backend/htmlfiles/ai_recommendations_neuralroots_2024-10-17_10-11-23.html
+[2024-10-17 10:11:29] Script started
+[2024-10-17 10:11:29] Database connection established
+[2024-10-17 10:11:29] TCPDF library loaded
+[2024-10-17 10:11:29] POST request received
+[2024-10-17 10:11:29] Form data processed. Columns to add: user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments
+[2024-10-17 10:11:29] Column user_id already exists
+[2024-10-17 10:11:29] Column brief already exists
+[2024-10-17 10:11:29] Column company_size already exists
+[2024-10-17 10:11:29] Column cbc already exists
+[2024-10-17 10:11:29] Column ib already exists
+[2024-10-17 10:11:29] Column ai_outcomes already exists
+[2024-10-17 10:11:29] Column customer_service already exists
+[2024-10-17 10:11:29] Column sales_marketing already exists
+[2024-10-17 10:11:29] Column operations_logistics already exists
+[2024-10-17 10:11:29] Column product_development already exists
+[2024-10-17 10:11:29] Column financial_management already exists
+[2024-10-17 10:11:29] Column existing_ai_ml already exists
+[2024-10-17 10:11:29] Column specify_ai_ml_textarea already exists
+[2024-10-17 10:11:29] Column ai_concerns already exists
+[2024-10-17 10:11:29] Column ai_capabilities already exists
+[2024-10-17 10:11:29] Column ai_investment_readiness already exists
+[2024-10-17 10:11:29] Column ai_implementation_approach already exists
+[2024-10-17 10:11:29] Column additional_comments already exists
+[2024-10-17 10:11:29] SQL Query: INSERT INTO kit_details (user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments, ip_address, user_agent, submission_date) VALUES ('Not available', 'TechSpark is a growing AI-powered healthcare technology company focused on developing diagnostic tools for early disease detection and personalized medicine. We\'re currently expanding our market presence in the Asia-Pacific region and forming strategic partnerships with leading medical research institutions. Our goals include achieving 20% revenue growth, launching three new AI-powered diagnostic tools, and maintaining high customer satisfaction.', '11-50', 'Product Development: Developing AI-powered diagnostic tools for early disease detection.\r\nMarket Expansion: Expanding sales and marketing efforts in Asia-Pacific.\r\nPartnerships: Forming strategic partnerships with medical research institutions.\r\nRevenue Growth: Aiming for 20% growth in 12 months.\r\nProduct Innovation: Launch three new AI tools in 18 months.\r\nCustomer Satisfaction: Maintain 90%+ satisfaction rating.\r\nChallenges: Ensuring data quality, navigating regulatory compliance, and attracting top AI/ML talent.', 'Manual Data Annotation: Leading to delays and increased costs.\r\nModel Training Time: Requires significant computational resources.\r\nCustomer Support: High volumes causing longer response times.', 'Cost Reduction, Increased Efficiency', '3', '3', '2', '3', '3', 'Yes', 'We currently use machine learning algorithms for image analysis in our diagnostic tools and natural language processing for analyzing medical records.', 'Cost, Integration Complexity', 'Predictive Analytics', 'Ready to Invest', 'Build In-house', 'We are exploring transfer learning to accelerate model training. \r\nWe\'re interested in integrating our AI diagnostic tools with electronic health records (EHRs).\r\nWe seek partnerships with leading AI/ML research institutions to advance our technology and improve patient outcomes.', '2401:4900:883a:a822:2c71:80db:da4a:78f8', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36', '2024-10-17 10:11:29')
+[2024-10-17 10:11:29] Data inserted successfully
+[2024-10-17 10:11:29] Company name retrieved: Neuralroots
+[2024-10-17 10:11:29] User and kit data fetched
+[2024-10-17 10:11:29] Company data prepared for AI recommendations
+[2024-10-17 10:11:29] JSON data saved to database
+[2024-10-17 10:11:29] Generating AI recommendations
+[2024-10-17 10:11:31] AI recommendations generated successfully
+[2024-10-17 10:11:31] AI recommendations generated successfully
+[2024-10-17 10:11:31] Generating PDF
+[2024-10-17 10:11:31] Generating PDF for Neuralroots
+[2024-10-17 10:11:31] PDF generated successfully
+[2024-10-17 10:11:31] PDF generated
+[2024-10-17 10:11:31] PDF content updated in database
+[2024-10-17 10:11:31] Creating HTML
+[2024-10-17 10:11:31] HTML file created successfully: /home/u783522058/domains/neuralroots.ai/public_html//Assesment-Templates/backend/htmlfiles/ai_recommendations_neuralroots_2024-10-17_10-11-31.html
+[2024-10-17 10:11:40] Script started
+[2024-10-17 10:11:40] Database connection established
+[2024-10-17 10:11:40] TCPDF library loaded
+[2024-10-17 10:11:40] POST request received
+[2024-10-17 10:11:40] Form data processed. Columns to add: user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments
+[2024-10-17 10:11:40] Column user_id already exists
+[2024-10-17 10:11:40] Column brief already exists
+[2024-10-17 10:11:40] Column company_size already exists
+[2024-10-17 10:11:40] Column cbc already exists
+[2024-10-17 10:11:40] Column ib already exists
+[2024-10-17 10:11:40] Column ai_outcomes already exists
+[2024-10-17 10:11:40] Column customer_service already exists
+[2024-10-17 10:11:40] Column sales_marketing already exists
+[2024-10-17 10:11:40] Column operations_logistics already exists
+[2024-10-17 10:11:40] Column product_development already exists
+[2024-10-17 10:11:40] Column financial_management already exists
+[2024-10-17 10:11:40] Column existing_ai_ml already exists
+[2024-10-17 10:11:40] Column specify_ai_ml_textarea already exists
+[2024-10-17 10:11:40] Column ai_concerns already exists
+[2024-10-17 10:11:40] Column ai_capabilities already exists
+[2024-10-17 10:11:40] Column ai_investment_readiness already exists
+[2024-10-17 10:11:40] Column ai_implementation_approach already exists
+[2024-10-17 10:11:40] Column additional_comments already exists
+[2024-10-17 10:11:40] SQL Query: INSERT INTO kit_details (user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments, ip_address, user_agent, submission_date) VALUES ('Not available', 'TechSpark is a growing AI-powered healthcare technology company focused on developing diagnostic tools for early disease detection and personalized medicine. We\'re currently expanding our market presence in the Asia-Pacific region and forming strategic partnerships with leading medical research institutions. Our goals include achieving 20% revenue growth, launching three new AI-powered diagnostic tools, and maintaining high customer satisfaction.', '11-50', 'Product Development: Developing AI-powered diagnostic tools for early disease detection.\r\nMarket Expansion: Expanding sales and marketing efforts in Asia-Pacific.\r\nPartnerships: Forming strategic partnerships with medical research institutions.\r\nRevenue Growth: Aiming for 20% growth in 12 months.\r\nProduct Innovation: Launch three new AI tools in 18 months.\r\nCustomer Satisfaction: Maintain 90%+ satisfaction rating.\r\nChallenges: Ensuring data quality, navigating regulatory compliance, and attracting top AI/ML talent.', 'Manual Data Annotation: Leading to delays and increased costs.\r\nModel Training Time: Requires significant computational resources.\r\nCustomer Support: High volumes causing longer response times.', 'Cost Reduction, Increased Efficiency', '3', '3', '2', '3', '3', 'Yes', 'We currently use machine learning algorithms for image analysis in our diagnostic tools and natural language processing for analyzing medical records.', 'Cost, Integration Complexity', 'Predictive Analytics', 'Ready to Invest', 'Build In-house', 'We are exploring transfer learning to accelerate model training. \r\nWe\'re interested in integrating our AI diagnostic tools with electronic health records (EHRs).\r\nWe seek partnerships with leading AI/ML research institutions to advance our technology and improve patient outcomes.', '2401:4900:883a:a822:2c71:80db:da4a:78f8', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36', '2024-10-17 10:11:40')
+[2024-10-17 10:11:40] Data inserted successfully
+[2024-10-17 10:11:40] Company name retrieved: Neuralroots
+[2024-10-17 10:11:40] User and kit data fetched
+[2024-10-17 10:11:40] Company data prepared for AI recommendations
+[2024-10-17 10:11:40] JSON data saved to database
+[2024-10-17 10:11:40] Generating AI recommendations
+[2024-10-17 10:11:42] AI recommendations generated successfully
+[2024-10-17 10:11:42] AI recommendations generated successfully
+[2024-10-17 10:11:42] Generating PDF
+[2024-10-17 10:11:42] Generating PDF for Neuralroots
+[2024-10-17 10:11:42] PDF generated successfully
+[2024-10-17 10:11:42] PDF generated
+[2024-10-17 10:11:42] PDF content updated in database
+[2024-10-17 10:11:42] Creating HTML
+[2024-10-17 10:11:42] HTML file created successfully: /home/u783522058/domains/neuralroots.ai/public_html//Assesment-Templates/backend/htmlfiles/ai_recommendations_neuralroots_2024-10-17_10-11-42.html
+[2024-10-17 10:11:48] Script started
+[2024-10-17 10:11:48] Database connection established
+[2024-10-17 10:11:48] TCPDF library loaded
+[2024-10-17 10:11:48] POST request received
+[2024-10-17 10:11:48] Form data processed. Columns to add: user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments
+[2024-10-17 10:11:48] Column user_id already exists
+[2024-10-17 10:11:48] Column brief already exists
+[2024-10-17 10:11:48] Column company_size already exists
+[2024-10-17 10:11:48] Column cbc already exists
+[2024-10-17 10:11:48] Column ib already exists
+[2024-10-17 10:11:48] Column ai_outcomes already exists
+[2024-10-17 10:11:48] Column customer_service already exists
+[2024-10-17 10:11:48] Column sales_marketing already exists
+[2024-10-17 10:11:48] Column operations_logistics already exists
+[2024-10-17 10:11:48] Column product_development already exists
+[2024-10-17 10:11:48] Column financial_management already exists
+[2024-10-17 10:11:48] Column existing_ai_ml already exists
+[2024-10-17 10:11:48] Column specify_ai_ml_textarea already exists
+[2024-10-17 10:11:48] Column ai_concerns already exists
+[2024-10-17 10:11:48] Column ai_capabilities already exists
+[2024-10-17 10:11:48] Column ai_investment_readiness already exists
+[2024-10-17 10:11:48] Column ai_implementation_approach already exists
+[2024-10-17 10:11:48] Column additional_comments already exists
+[2024-10-17 10:11:48] SQL Query: INSERT INTO kit_details (user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments, ip_address, user_agent, submission_date) VALUES ('Not available', 'TechSpark is a growing AI-powered healthcare technology company focused on developing diagnostic tools for early disease detection and personalized medicine. We\'re currently expanding our market presence in the Asia-Pacific region and forming strategic partnerships with leading medical research institutions. Our goals include achieving 20% revenue growth, launching three new AI-powered diagnostic tools, and maintaining high customer satisfaction.', '11-50', 'Product Development: Developing AI-powered diagnostic tools for early disease detection.\r\nMarket Expansion: Expanding sales and marketing efforts in Asia-Pacific.\r\nPartnerships: Forming strategic partnerships with medical research institutions.\r\nRevenue Growth: Aiming for 20% growth in 12 months.\r\nProduct Innovation: Launch three new AI tools in 18 months.\r\nCustomer Satisfaction: Maintain 90%+ satisfaction rating.\r\nChallenges: Ensuring data quality, navigating regulatory compliance, and attracting top AI/ML talent.', 'Manual Data Annotation: Leading to delays and increased costs.\r\nModel Training Time: Requires significant computational resources.\r\nCustomer Support: High volumes causing longer response times.', 'Cost Reduction, Increased Efficiency', '3', '3', '2', '3', '3', 'Yes', 'We currently use machine learning algorithms for image analysis in our diagnostic tools and natural language processing for analyzing medical records.', 'Cost, Integration Complexity', 'Predictive Analytics', 'Ready to Invest', 'Build In-house', 'We are exploring transfer learning to accelerate model training. \r\nWe\'re interested in integrating our AI diagnostic tools with electronic health records (EHRs).\r\nWe seek partnerships with leading AI/ML research institutions to advance our technology and improve patient outcomes.', '2401:4900:883a:a822:2c71:80db:da4a:78f8', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36', '2024-10-17 10:11:48')
+[2024-10-17 10:11:48] Data inserted successfully
+[2024-10-17 10:11:48] Company name retrieved: Neuralroots
+[2024-10-17 10:11:48] User and kit data fetched
+[2024-10-17 10:11:48] Company data prepared for AI recommendations
+[2024-10-17 10:11:48] JSON data saved to database
+[2024-10-17 10:11:48] Generating AI recommendations
+[2024-10-17 10:11:49] AI recommendations generated successfully
+[2024-10-17 10:11:49] AI recommendations generated successfully
+[2024-10-17 10:11:49] Generating PDF
+[2024-10-17 10:11:49] Generating PDF for Neuralroots
+[2024-10-17 10:11:49] PDF generated successfully
+[2024-10-17 10:11:49] PDF generated
+[2024-10-17 10:11:49] PDF content updated in database
+[2024-10-17 10:11:49] Creating HTML
+[2024-10-17 10:11:49] HTML file created successfully: /home/u783522058/domains/neuralroots.ai/public_html//Assesment-Templates/backend/htmlfiles/ai_recommendations_neuralroots_2024-10-17_10-11-49.html
+[2024-10-17 10:14:50] Script started
+[2024-10-17 10:14:50] Database connection established
+[2024-10-17 10:14:50] TCPDF library loaded
+[2024-10-17 10:14:50] POST request received
+[2024-10-17 10:14:50] Form data processed. Columns to add: user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments
+[2024-10-17 10:14:50] Column user_id already exists
+[2024-10-17 10:14:50] Column brief already exists
+[2024-10-17 10:14:50] Column company_size already exists
+[2024-10-17 10:14:50] Column cbc already exists
+[2024-10-17 10:14:50] Column ib already exists
+[2024-10-17 10:14:50] Column ai_outcomes already exists
+[2024-10-17 10:14:50] Column customer_service already exists
+[2024-10-17 10:14:50] Column sales_marketing already exists
+[2024-10-17 10:14:50] Column operations_logistics already exists
+[2024-10-17 10:14:50] Column product_development already exists
+[2024-10-17 10:14:50] Column financial_management already exists
+[2024-10-17 10:14:50] Column existing_ai_ml already exists
+[2024-10-17 10:14:50] Column specify_ai_ml_textarea already exists
+[2024-10-17 10:14:50] Column ai_concerns already exists
+[2024-10-17 10:14:50] Column ai_capabilities already exists
+[2024-10-17 10:14:50] Column ai_investment_readiness already exists
+[2024-10-17 10:14:50] Column ai_implementation_approach already exists
+[2024-10-17 10:14:50] Column additional_comments already exists
+[2024-10-17 10:14:50] SQL Query: INSERT INTO kit_details (user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments, ip_address, user_agent, submission_date) VALUES ('Not available', 'TechSpark is a growing AI-powered healthcare technology company focused on developing diagnostic tools for early disease detection and personalized medicine. We\'re currently expanding our market presence in the Asia-Pacific region and forming strategic partnerships with leading medical research institutions. Our goals include achieving 20% revenue growth, launching three new AI-powered diagnostic tools, and maintaining high customer satisfaction.', '11-50', 'Product Development: Developing AI-powered diagnostic tools for early disease detection.\r\nMarket Expansion: Expanding sales and marketing efforts in Asia-Pacific.\r\nPartnerships: Forming strategic partnerships with medical research institutions.\r\nRevenue Growth: Aiming for 20% growth in 12 months.\r\nProduct Innovation: Launch three new AI tools in 18 months.\r\nCustomer Satisfaction: Maintain 90%+ satisfaction rating.\r\nChallenges: Ensuring data quality, navigating regulatory compliance, and attracting top AI/ML talent.', 'Manual Data Annotation: Leading to delays and increased costs.\r\nModel Training Time: Requires significant computational resources.\r\nCustomer Support: High volumes causing longer response times.', 'Cost Reduction, Increased Efficiency', '3', '3', '2', '3', '3', 'Yes', 'We currently use machine learning algorithms for image analysis in our diagnostic tools and natural language processing for analyzing medical records.', 'Cost, Integration Complexity', 'Predictive Analytics', 'Ready to Invest', 'Build In-house', 'We are exploring transfer learning to accelerate model training. \r\nWe\'re interested in integrating our AI diagnostic tools with electronic health records (EHRs).\r\nWe seek partnerships with leading AI/ML research institutions to advance our technology and improve patient outcomes.', '2401:4900:883a:a822:2c71:80db:da4a:78f8', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36', '2024-10-17 10:14:50')
+[2024-10-17 10:14:50] Data inserted successfully
+[2024-10-17 10:14:50] Company name retrieved: Neuralroots
+[2024-10-17 10:14:50] User and kit data fetched
+[2024-10-17 10:14:50] Company data prepared for AI recommendations
+[2024-10-17 10:14:50] JSON data saved to database
+[2024-10-17 10:14:50] Generating AI recommendations
+[2024-10-17 10:14:50] Unexpected API response format. HTTP Code: 503. Full response logged in 'api_response_log.txt'.
+[2024-10-17 10:14:50] Error: Unexpected API response format. Please check the logs and contact support.
+[2024-10-17 10:15:13] Script started
+[2024-10-17 10:15:13] Database connection established
+[2024-10-17 10:15:13] TCPDF library loaded
+[2024-10-17 10:15:13] POST request received
+[2024-10-17 10:15:13] Form data processed. Columns to add: user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments
+[2024-10-17 10:15:13] Column user_id already exists
+[2024-10-17 10:15:13] Column brief already exists
+[2024-10-17 10:15:13] Column company_size already exists
+[2024-10-17 10:15:13] Column cbc already exists
+[2024-10-17 10:15:13] Column ib already exists
+[2024-10-17 10:15:13] Column ai_outcomes already exists
+[2024-10-17 10:15:13] Column customer_service already exists
+[2024-10-17 10:15:13] Column sales_marketing already exists
+[2024-10-17 10:15:13] Column operations_logistics already exists
+[2024-10-17 10:15:13] Column product_development already exists
+[2024-10-17 10:15:13] Column financial_management already exists
+[2024-10-17 10:15:13] Column existing_ai_ml already exists
+[2024-10-17 10:15:13] Column specify_ai_ml_textarea already exists
+[2024-10-17 10:15:13] Column ai_concerns already exists
+[2024-10-17 10:15:13] Column ai_capabilities already exists
+[2024-10-17 10:15:13] Column ai_investment_readiness already exists
+[2024-10-17 10:15:13] Column ai_implementation_approach already exists
+[2024-10-17 10:15:13] Column additional_comments already exists
+[2024-10-17 10:15:13] SQL Query: INSERT INTO kit_details (user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments, ip_address, user_agent, submission_date) VALUES ('Not available', 'TechSpark is a growing AI-powered healthcare technology company focused on developing diagnostic tools for early disease detection and personalized medicine. We\'re currently expanding our market presence in the Asia-Pacific region and forming strategic partnerships with leading medical research institutions. Our goals include achieving 20% revenue growth, launching three new AI-powered diagnostic tools, and maintaining high customer satisfaction.', '11-50', 'Product Development: Developing AI-powered diagnostic tools for early disease detection.\r\nMarket Expansion: Expanding sales and marketing efforts in Asia-Pacific.\r\nPartnerships: Forming strategic partnerships with medical research institutions.\r\nRevenue Growth: Aiming for 20% growth in 12 months.\r\nProduct Innovation: Launch three new AI tools in 18 months.\r\nCustomer Satisfaction: Maintain 90%+ satisfaction rating.\r\nChallenges: Ensuring data quality, navigating regulatory compliance, and attracting top AI/ML talent.', 'Manual Data Annotation: Leading to delays and increased costs.\r\nModel Training Time: Requires significant computational resources.\r\nCustomer Support: High volumes causing longer response times.', 'Cost Reduction, Increased Efficiency', '3', '3', '2', '3', '3', 'Yes', 'We currently use machine learning algorithms for image analysis in our diagnostic tools and natural language processing for analyzing medical records.', 'Cost, Integration Complexity', 'Predictive Analytics', 'Ready to Invest', 'Build In-house', 'We are exploring transfer learning to accelerate model training. \r\nWe\'re interested in integrating our AI diagnostic tools with electronic health records (EHRs).\r\nWe seek partnerships with leading AI/ML research institutions to advance our technology and improve patient outcomes.', '2401:4900:883a:a822:2c71:80db:da4a:78f8', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36', '2024-10-17 10:15:13')
+[2024-10-17 10:15:13] Data inserted successfully
+[2024-10-17 10:15:13] Company name retrieved: Neuralroots
+[2024-10-17 10:15:13] User and kit data fetched
+[2024-10-17 10:15:13] Company data prepared for AI recommendations
+[2024-10-17 10:15:13] JSON data saved to database
+[2024-10-17 10:15:13] Generating AI recommendations
+[2024-10-17 10:15:13] Unexpected API response format. HTTP Code: 503. Full response logged in 'api_response_log.txt'.
+[2024-10-17 10:15:13] Error: Unexpected API response format. Please check the logs and contact support.
+[2024-10-17 10:16:46] Script started
+[2024-10-17 10:16:46] Database connection established
+[2024-10-17 10:16:46] TCPDF library loaded
+[2024-10-17 10:16:46] POST request received
+[2024-10-17 10:16:46] Form data processed. Columns to add: user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments
+[2024-10-17 10:16:46] Column user_id already exists
+[2024-10-17 10:16:46] Column brief already exists
+[2024-10-17 10:16:46] Column company_size already exists
+[2024-10-17 10:16:46] Column cbc already exists
+[2024-10-17 10:16:46] Column ib already exists
+[2024-10-17 10:16:46] Column ai_outcomes already exists
+[2024-10-17 10:16:46] Column customer_service already exists
+[2024-10-17 10:16:46] Column sales_marketing already exists
+[2024-10-17 10:16:46] Column operations_logistics already exists
+[2024-10-17 10:16:46] Column product_development already exists
+[2024-10-17 10:16:46] Column financial_management already exists
+[2024-10-17 10:16:46] Column existing_ai_ml already exists
+[2024-10-17 10:16:46] Column specify_ai_ml_textarea already exists
+[2024-10-17 10:16:46] Column ai_concerns already exists
+[2024-10-17 10:16:46] Column ai_capabilities already exists
+[2024-10-17 10:16:46] Column ai_investment_readiness already exists
+[2024-10-17 10:16:46] Column ai_implementation_approach already exists
+[2024-10-17 10:16:46] Column additional_comments already exists
+[2024-10-17 10:16:46] SQL Query: INSERT INTO kit_details (user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments, ip_address, user_agent, submission_date) VALUES ('Not available', 'TechSpark is a growing AI-powered healthcare technology company focused on developing diagnostic tools for early disease detection and personalized medicine. We\'re currently expanding our market presence in the Asia-Pacific region and forming strategic partnerships with leading medical research institutions. Our goals include achieving 20% revenue growth, launching three new AI-powered diagnostic tools, and maintaining high customer satisfaction.', '11-50', 'Product Development: Developing AI-powered diagnostic tools for early disease detection.\r\nMarket Expansion: Expanding sales and marketing efforts in Asia-Pacific.\r\nPartnerships: Forming strategic partnerships with medical research institutions.\r\nRevenue Growth: Aiming for 20% growth in 12 months.\r\nProduct Innovation: Launch three new AI tools in 18 months.\r\nCustomer Satisfaction: Maintain 90%+ satisfaction rating.\r\nChallenges: Ensuring data quality, navigating regulatory compliance, and attracting top AI/ML talent.', 'Manual Data Annotation: Leading to delays and increased costs.\r\nModel Training Time: Requires significant computational resources.\r\nCustomer Support: High volumes causing longer response times.', 'Cost Reduction, Increased Efficiency', '3', '3', '2', '3', '3', 'Yes', 'We currently use machine learning algorithms for image analysis in our diagnostic tools and natural language processing for analyzing medical records.', 'Cost, Integration Complexity', 'Predictive Analytics', 'Ready to Invest', 'Build In-house', 'We are exploring transfer learning to accelerate model training. \r\nWe\'re interested in integrating our AI diagnostic tools with electronic health records (EHRs).\r\nWe seek partnerships with leading AI/ML research institutions to advance our technology and improve patient outcomes.', '2401:4900:883a:a822:2c71:80db:da4a:78f8', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36', '2024-10-17 10:16:46')
+[2024-10-17 10:16:46] Data inserted successfully
+[2024-10-17 10:16:46] Company name retrieved: Neuralroots
+[2024-10-17 10:16:46] User and kit data fetched
+[2024-10-17 10:16:46] Company data prepared for AI recommendations
+[2024-10-17 10:16:46] JSON data saved to database
+[2024-10-17 10:16:46] Generating AI recommendations
+[2024-10-17 10:16:46] API service unavailable. Retrying in 5 seconds...
+[2024-10-17 10:16:51] API service unavailable. Retrying in 5 seconds...
+[2024-10-17 10:16:57] API service unavailable. Retrying in 5 seconds...
+[2024-10-17 10:17:02] Error: Failed to generate AI recommendations after 3 attempts.
+[2024-10-17 10:18:06] Script started
+[2024-10-17 10:18:06] Database connection established
+[2024-10-17 10:18:06] TCPDF library loaded
+[2024-10-17 10:18:06] POST request received
+[2024-10-17 10:18:06] Form data processed. Columns to add: user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments
+[2024-10-17 10:18:06] Column user_id already exists
+[2024-10-17 10:18:06] Column brief already exists
+[2024-10-17 10:18:06] Column company_size already exists
+[2024-10-17 10:18:06] Column cbc already exists
+[2024-10-17 10:18:06] Column ib already exists
+[2024-10-17 10:18:06] Column ai_outcomes already exists
+[2024-10-17 10:18:06] Column customer_service already exists
+[2024-10-17 10:18:06] Column sales_marketing already exists
+[2024-10-17 10:18:06] Column operations_logistics already exists
+[2024-10-17 10:18:06] Column product_development already exists
+[2024-10-17 10:18:06] Column financial_management already exists
+[2024-10-17 10:18:06] Column existing_ai_ml already exists
+[2024-10-17 10:18:06] Column specify_ai_ml_textarea already exists
+[2024-10-17 10:18:06] Column ai_concerns already exists
+[2024-10-17 10:18:06] Column ai_capabilities already exists
+[2024-10-17 10:18:06] Column ai_investment_readiness already exists
+[2024-10-17 10:18:06] Column ai_implementation_approach already exists
+[2024-10-17 10:18:06] Column additional_comments already exists
+[2024-10-17 10:18:06] SQL Query: INSERT INTO kit_details (user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments, ip_address, user_agent, submission_date) VALUES ('Not available', 'TechSpark is a growing AI-powered healthcare technology company focused on developing diagnostic tools for early disease detection and personalized medicine. We\'re currently expanding our market presence in the Asia-Pacific region and forming strategic partnerships with leading medical research institutions. Our goals include achieving 20% revenue growth, launching three new AI-powered diagnostic tools, and maintaining high customer satisfaction.', '11-50', 'Product Development: Developing AI-powered diagnostic tools for early disease detection.\r\nMarket Expansion: Expanding sales and marketing efforts in Asia-Pacific.\r\nPartnerships: Forming strategic partnerships with medical research institutions.\r\nRevenue Growth: Aiming for 20% growth in 12 months.\r\nProduct Innovation: Launch three new AI tools in 18 months.\r\nCustomer Satisfaction: Maintain 90%+ satisfaction rating.\r\nChallenges: Ensuring data quality, navigating regulatory compliance, and attracting top AI/ML talent.', 'Manual Data Annotation: Leading to delays and increased costs.\r\nModel Training Time: Requires significant computational resources.\r\nCustomer Support: High volumes causing longer response times.', 'Cost Reduction, Increased Efficiency', '3', '3', '2', '3', '3', 'Yes', 'We currently use machine learning algorithms for image analysis in our diagnostic tools and natural language processing for analyzing medical records.', 'Cost, Integration Complexity', 'Predictive Analytics', 'Ready to Invest', 'Build In-house', 'We are exploring transfer learning to accelerate model training. \r\nWe\'re interested in integrating our AI diagnostic tools with electronic health records (EHRs).\r\nWe seek partnerships with leading AI/ML research institutions to advance our technology and improve patient outcomes.', '2401:4900:883a:a822:2c71:80db:da4a:78f8', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36', '2024-10-17 10:18:06')
+[2024-10-17 10:18:06] Data inserted successfully
+[2024-10-17 10:18:06] Company name retrieved: Neuralroots
+[2024-10-17 10:18:06] User and kit data fetched
+[2024-10-17 10:18:06] Company data prepared for AI recommendations
+[2024-10-17 10:18:06] JSON data saved to database
+[2024-10-17 10:18:06] Generating AI recommendations
+[2024-10-17 10:18:08] AI recommendations generated successfully
+[2024-10-17 10:18:08] AI recommendations generated successfully
+[2024-10-17 10:18:08] Generating PDF
+[2024-10-17 10:18:08] Generating PDF for Neuralroots
+[2024-10-17 10:18:08] PDF generated successfully
+[2024-10-17 10:18:08] PDF generated
+[2024-10-17 10:18:08] PDF content updated in database
+[2024-10-17 10:18:08] Creating HTML
+[2024-10-17 10:18:08] HTML file created successfully: /home/u783522058/domains/neuralroots.ai/public_html//Assesment-Templates/backend/htmlfiles/ai_recommendations_neuralroots_2024-10-17_10-18-08.html
+[2024-10-17 10:18:21] Script started
+[2024-10-17 10:18:21] Database connection established
+[2024-10-17 10:18:21] TCPDF library loaded
+[2024-10-17 10:18:21] POST request received
+[2024-10-17 10:18:21] Form data processed. Columns to add: user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments
+[2024-10-17 10:18:21] Column user_id already exists
+[2024-10-17 10:18:21] Column brief already exists
+[2024-10-17 10:18:21] Column company_size already exists
+[2024-10-17 10:18:21] Column cbc already exists
+[2024-10-17 10:18:21] Column ib already exists
+[2024-10-17 10:18:21] Column ai_outcomes already exists
+[2024-10-17 10:18:21] Column customer_service already exists
+[2024-10-17 10:18:21] Column sales_marketing already exists
+[2024-10-17 10:18:21] Column operations_logistics already exists
+[2024-10-17 10:18:21] Column product_development already exists
+[2024-10-17 10:18:21] Column financial_management already exists
+[2024-10-17 10:18:21] Column existing_ai_ml already exists
+[2024-10-17 10:18:21] Column specify_ai_ml_textarea already exists
+[2024-10-17 10:18:21] Column ai_concerns already exists
+[2024-10-17 10:18:21] Column ai_capabilities already exists
+[2024-10-17 10:18:21] Column ai_investment_readiness already exists
+[2024-10-17 10:18:21] Column ai_implementation_approach already exists
+[2024-10-17 10:18:21] Column additional_comments already exists
+[2024-10-17 10:18:21] SQL Query: INSERT INTO kit_details (user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments, ip_address, user_agent, submission_date) VALUES ('Not available', 'TechSpark is a growing AI-powered healthcare technology company focused on developing diagnostic tools for early disease detection and personalized medicine. We\'re currently expanding our market presence in the Asia-Pacific region and forming strategic partnerships with leading medical research institutions. Our goals include achieving 20% revenue growth, launching three new AI-powered diagnostic tools, and maintaining high customer satisfaction.', '11-50', 'Product Development: Developing AI-powered diagnostic tools for early disease detection.\r\nMarket Expansion: Expanding sales and marketing efforts in Asia-Pacific.\r\nPartnerships: Forming strategic partnerships with medical research institutions.\r\nRevenue Growth: Aiming for 20% growth in 12 months.\r\nProduct Innovation: Launch three new AI tools in 18 months.\r\nCustomer Satisfaction: Maintain 90%+ satisfaction rating.\r\nChallenges: Ensuring data quality, navigating regulatory compliance, and attracting top AI/ML talent.', 'Manual Data Annotation: Leading to delays and increased costs.\r\nModel Training Time: Requires significant computational resources.\r\nCustomer Support: High volumes causing longer response times.', 'Cost Reduction, Increased Efficiency', '3', '3', '2', '3', '3', 'Yes', 'We currently use machine learning algorithms for image analysis in our diagnostic tools and natural language processing for analyzing medical records.', 'Cost, Integration Complexity', 'Predictive Analytics', 'Ready to Invest', 'Build In-house', 'We are exploring transfer learning to accelerate model training. \r\nWe\'re interested in integrating our AI diagnostic tools with electronic health records (EHRs).\r\nWe seek partnerships with leading AI/ML research institutions to advance our technology and improve patient outcomes.', '2401:4900:883a:a822:2c71:80db:da4a:78f8', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36', '2024-10-17 10:18:21')
+[2024-10-17 10:18:21] Data inserted successfully
+[2024-10-17 10:18:21] Company name retrieved: Neuralroots
+[2024-10-17 10:18:21] User and kit data fetched
+[2024-10-17 10:18:21] Company data prepared for AI recommendations
+[2024-10-17 10:18:21] JSON data saved to database
+[2024-10-17 10:18:21] Generating AI recommendations
+[2024-10-17 10:18:23] AI recommendations generated successfully
+[2024-10-17 10:18:23] AI recommendations generated successfully
+[2024-10-17 10:18:23] Generating PDF
+[2024-10-17 10:18:23] Generating PDF for Neuralroots
+[2024-10-17 10:18:23] PDF generated successfully
+[2024-10-17 10:18:23] PDF generated
+[2024-10-17 10:18:23] PDF content updated in database
+[2024-10-17 10:18:23] Creating HTML
+[2024-10-17 10:18:23] HTML file created successfully: /home/u783522058/domains/neuralroots.ai/public_html//Assesment-Templates/backend/htmlfiles/ai_recommendations_neuralroots_2024-10-17_10-18-23.html
+[2024-10-17 10:18:33] Script started
+[2024-10-17 10:18:33] Database connection established
+[2024-10-17 10:18:33] TCPDF library loaded
+[2024-10-17 10:18:33] PDF download requested
+[2024-10-17 10:18:33] PDF content retrieved. Size: 24109 bytes
+[2024-10-17 10:18:33] PDF sent successfully
+[2024-10-17 10:18:47] Script started
+[2024-10-17 10:18:47] Database connection established
+[2024-10-17 10:18:47] TCPDF library loaded
+[2024-10-17 10:18:47] POST request received
+[2024-10-17 10:18:47] Form data processed. Columns to add: user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments
+[2024-10-17 10:18:47] Column user_id already exists
+[2024-10-17 10:18:47] Column brief already exists
+[2024-10-17 10:18:47] Column company_size already exists
+[2024-10-17 10:18:47] Column cbc already exists
+[2024-10-17 10:18:47] Column ib already exists
+[2024-10-17 10:18:47] Column ai_outcomes already exists
+[2024-10-17 10:18:47] Column customer_service already exists
+[2024-10-17 10:18:47] Column sales_marketing already exists
+[2024-10-17 10:18:47] Column operations_logistics already exists
+[2024-10-17 10:18:47] Column product_development already exists
+[2024-10-17 10:18:47] Column financial_management already exists
+[2024-10-17 10:18:47] Column existing_ai_ml already exists
+[2024-10-17 10:18:47] Column specify_ai_ml_textarea already exists
+[2024-10-17 10:18:47] Column ai_concerns already exists
+[2024-10-17 10:18:47] Column ai_capabilities already exists
+[2024-10-17 10:18:47] Column ai_investment_readiness already exists
+[2024-10-17 10:18:47] Column ai_implementation_approach already exists
+[2024-10-17 10:18:47] Column additional_comments already exists
+[2024-10-17 10:18:47] SQL Query: INSERT INTO kit_details (user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments, ip_address, user_agent, submission_date) VALUES ('Not available', 'TechSpark is a growing AI-powered healthcare technology company focused on developing diagnostic tools for early disease detection and personalized medicine. We\'re currently expanding our market presence in the Asia-Pacific region and forming strategic partnerships with leading medical research institutions. Our goals include achieving 20% revenue growth, launching three new AI-powered diagnostic tools, and maintaining high customer satisfaction.', '11-50', 'Product Development: Developing AI-powered diagnostic tools for early disease detection.\r\nMarket Expansion: Expanding sales and marketing efforts in Asia-Pacific.\r\nPartnerships: Forming strategic partnerships with medical research institutions.\r\nRevenue Growth: Aiming for 20% growth in 12 months.\r\nProduct Innovation: Launch three new AI tools in 18 months.\r\nCustomer Satisfaction: Maintain 90%+ satisfaction rating.\r\nChallenges: Ensuring data quality, navigating regulatory compliance, and attracting top AI/ML talent.', 'Manual Data Annotation: Leading to delays and increased costs.\r\nModel Training Time: Requires significant computational resources.\r\nCustomer Support: High volumes causing longer response times.', 'Cost Reduction, Increased Efficiency', '3', '3', '2', '3', '3', 'Yes', 'We currently use machine learning algorithms for image analysis in our diagnostic tools and natural language processing for analyzing medical records.', 'Cost, Integration Complexity', 'Predictive Analytics', 'Ready to Invest', 'Build In-house', 'We are exploring transfer learning to accelerate model training. \r\nWe\'re interested in integrating our AI diagnostic tools with electronic health records (EHRs).\r\nWe seek partnerships with leading AI/ML research institutions to advance our technology and improve patient outcomes.', '2401:4900:883a:a822:2c71:80db:da4a:78f8', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36', '2024-10-17 10:18:47')
+[2024-10-17 10:18:47] Data inserted successfully
+[2024-10-17 10:18:47] Company name retrieved: Neuralroots
+[2024-10-17 10:18:47] User and kit data fetched
+[2024-10-17 10:18:47] Company data prepared for AI recommendations
+[2024-10-17 10:18:47] JSON data saved to database
+[2024-10-17 10:18:47] Generating AI recommendations
+[2024-10-17 10:18:49] AI recommendations generated successfully
+[2024-10-17 10:18:49] AI recommendations generated successfully
+[2024-10-17 10:18:49] Generating PDF
+[2024-10-17 10:18:49] Generating PDF for Neuralroots
+[2024-10-17 10:18:49] PDF generated successfully
+[2024-10-17 10:18:49] PDF generated
+[2024-10-17 10:18:49] PDF content updated in database
+[2024-10-17 10:18:49] Creating HTML
+[2024-10-17 10:18:49] HTML file created successfully: /home/u783522058/domains/neuralroots.ai/public_html//Assesment-Templates/backend/htmlfiles/ai_recommendations_neuralroots_2024-10-17_10-18-49.html
+[2024-10-17 10:18:55] Script started
+[2024-10-17 10:18:55] Database connection established
+[2024-10-17 10:18:55] TCPDF library loaded
+[2024-10-17 10:18:55] POST request received
+[2024-10-17 10:18:55] Form data processed. Columns to add: user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments
+[2024-10-17 10:18:55] Column user_id already exists
+[2024-10-17 10:18:55] Column brief already exists
+[2024-10-17 10:18:55] Column company_size already exists
+[2024-10-17 10:18:55] Column cbc already exists
+[2024-10-17 10:18:55] Column ib already exists
+[2024-10-17 10:18:55] Column ai_outcomes already exists
+[2024-10-17 10:18:55] Column customer_service already exists
+[2024-10-17 10:18:55] Column sales_marketing already exists
+[2024-10-17 10:18:55] Column operations_logistics already exists
+[2024-10-17 10:18:55] Column product_development already exists
+[2024-10-17 10:18:55] Column financial_management already exists
+[2024-10-17 10:18:55] Column existing_ai_ml already exists
+[2024-10-17 10:18:55] Column specify_ai_ml_textarea already exists
+[2024-10-17 10:18:55] Column ai_concerns already exists
+[2024-10-17 10:18:55] Column ai_capabilities already exists
+[2024-10-17 10:18:55] Column ai_investment_readiness already exists
+[2024-10-17 10:18:55] Column ai_implementation_approach already exists
+[2024-10-17 10:18:55] Column additional_comments already exists
+[2024-10-17 10:18:55] SQL Query: INSERT INTO kit_details (user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments, ip_address, user_agent, submission_date) VALUES ('Not available', 'TechSpark is a growing AI-powered healthcare technology company focused on developing diagnostic tools for early disease detection and personalized medicine. We\'re currently expanding our market presence in the Asia-Pacific region and forming strategic partnerships with leading medical research institutions. Our goals include achieving 20% revenue growth, launching three new AI-powered diagnostic tools, and maintaining high customer satisfaction.', '11-50', 'Product Development: Developing AI-powered diagnostic tools for early disease detection.\r\nMarket Expansion: Expanding sales and marketing efforts in Asia-Pacific.\r\nPartnerships: Forming strategic partnerships with medical research institutions.\r\nRevenue Growth: Aiming for 20% growth in 12 months.\r\nProduct Innovation: Launch three new AI tools in 18 months.\r\nCustomer Satisfaction: Maintain 90%+ satisfaction rating.\r\nChallenges: Ensuring data quality, navigating regulatory compliance, and attracting top AI/ML talent.', 'Manual Data Annotation: Leading to delays and increased costs.\r\nModel Training Time: Requires significant computational resources.\r\nCustomer Support: High volumes causing longer response times.', 'Cost Reduction, Increased Efficiency', '3', '3', '2', '3', '3', 'Yes', 'We currently use machine learning algorithms for image analysis in our diagnostic tools and natural language processing for analyzing medical records.', 'Cost, Integration Complexity', 'Predictive Analytics', 'Ready to Invest', 'Build In-house', 'We are exploring transfer learning to accelerate model training. \r\nWe\'re interested in integrating our AI diagnostic tools with electronic health records (EHRs).\r\nWe seek partnerships with leading AI/ML research institutions to advance our technology and improve patient outcomes.', '2401:4900:883a:a822:2c71:80db:da4a:78f8', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36', '2024-10-17 10:18:55')
+[2024-10-17 10:18:55] Data inserted successfully
+[2024-10-17 10:18:55] Company name retrieved: Neuralroots
+[2024-10-17 10:18:55] User and kit data fetched
+[2024-10-17 10:18:55] Company data prepared for AI recommendations
+[2024-10-17 10:18:55] JSON data saved to database
+[2024-10-17 10:18:55] Generating AI recommendations
+[2024-10-17 10:18:57] AI recommendations generated successfully
+[2024-10-17 10:18:57] AI recommendations generated successfully
+[2024-10-17 10:18:57] Generating PDF
+[2024-10-17 10:18:57] Generating PDF for Neuralroots
+[2024-10-17 10:18:57] PDF generated successfully
+[2024-10-17 10:18:57] PDF generated
+[2024-10-17 10:18:57] PDF content updated in database
+[2024-10-17 10:18:57] Creating HTML
+[2024-10-17 10:18:57] HTML file created successfully: /home/u783522058/domains/neuralroots.ai/public_html//Assesment-Templates/backend/htmlfiles/ai_recommendations_neuralroots_2024-10-17_10-18-57.html
+[2024-10-17 10:24:25] Script started
+[2024-10-17 10:24:25] Database connection established
+[2024-10-17 10:24:25] TCPDF library loaded
+[2024-10-17 10:24:25] POST request received
+[2024-10-17 10:24:25] Form data processed. Columns to add: user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments
+[2024-10-17 10:24:25] Column user_id already exists
+[2024-10-17 10:24:25] Column brief already exists
+[2024-10-17 10:24:25] Column company_size already exists
+[2024-10-17 10:24:25] Column cbc already exists
+[2024-10-17 10:24:25] Column ib already exists
+[2024-10-17 10:24:25] Column ai_outcomes already exists
+[2024-10-17 10:24:25] Column customer_service already exists
+[2024-10-17 10:24:25] Column sales_marketing already exists
+[2024-10-17 10:24:25] Column operations_logistics already exists
+[2024-10-17 10:24:25] Column product_development already exists
+[2024-10-17 10:24:25] Column financial_management already exists
+[2024-10-17 10:24:25] Column existing_ai_ml already exists
+[2024-10-17 10:24:25] Column specify_ai_ml_textarea already exists
+[2024-10-17 10:24:25] Column ai_concerns already exists
+[2024-10-17 10:24:25] Column ai_capabilities already exists
+[2024-10-17 10:24:25] Column ai_investment_readiness already exists
+[2024-10-17 10:24:25] Column ai_implementation_approach already exists
+[2024-10-17 10:24:25] Column additional_comments already exists
+[2024-10-17 10:24:25] SQL Query: INSERT INTO kit_details (user_id, brief, company_size, cbc, ib, ai_outcomes, customer_service, sales_marketing, operations_logistics, product_development, financial_management, existing_ai_ml, specify_ai_ml_textarea, ai_concerns, ai_capabilities, ai_investment_readiness, ai_implementation_approach, additional_comments, ip_address, user_agent, submission_date) VALUES ('Not available', 'TechSpark is a growing AI-powered healthcare technology company focused on developing diagnostic tools for early disease detection and personalized medicine. We\'re currently expanding our market presence in the Asia-Pacific region and forming strategic partnerships with leading medical research institutions. Our goals include achieving 20% revenue growth, launching three new AI-powered diagnostic tools, and maintaining high customer satisfaction.', '11-50', 'Product Development: Developing AI-powered diagnostic tools for early disease detection.\r\nMarket Expansion: Expanding sales and marketing efforts in Asia-Pacific.\r\nPartnerships: Forming strategic partnerships with medical research institutions.\r\nRevenue Growth: Aiming for 20% growth in 12 months.\r\nProduct Innovation: Launch three new AI tools in 18 months.\r\nCustomer Satisfaction: Maintain 90%+ satisfaction rating.\r\nChallenges: Ensuring data quality, navigating regulatory compliance, and attracting top AI/ML talent.', 'Manual Data Annotation: Leading to delays and increased costs.\r\nModel Training Time: Requires significant computational resources.\r\nCustomer Support: High volumes causing longer response times.', 'Cost Reduction, Increased Efficiency', '3', '3', '2', '3', '3', 'Yes', 'We currently use machine learning algorithms for image analysis in our diagnostic tools and natural language processing for analyzing medical records.', 'Cost, Integration Complexity', 'Predictive Analytics', 'Ready to Invest', 'Build In-house', 'We are exploring transfer learning to accelerate model training. \r\nWe\'re interested in integrating our AI diagnostic tools with electronic health records (EHRs).\r\nWe seek partnerships with leading AI/ML research institutions to advance our technology and improve patient outcomes.', '2401:4900:883a:a822:2c71:80db:da4a:78f8', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36', '2024-10-17 10:24:25')
+[2024-10-17 10:24:25] Data inserted successfully
+[2024-10-17 10:24:25] Company name retrieved: Neuralroots
+[2024-10-17 10:24:25] User and kit data fetched
+[2024-10-17 10:24:25] Company data prepared for AI recommendations
+[2024-10-17 10:24:25] JSON data saved to database
+[2024-10-17 10:24:25] Generating AI recommendations
+[2024-10-17 10:24:27] AI recommendations generated successfully
+[2024-10-17 10:24:27] AI recommendations generated successfully
+[2024-10-17 10:24:27] Generating PDF
+[2024-10-17 10:24:27] Generating PDF for Neuralroots
+[2024-10-17 10:24:27] PDF generated successfully
+[2024-10-17 10:24:27] PDF generated
+[2024-10-17 10:24:27] PDF content updated in database
+[2024-10-17 10:24:27] Creating HTML
+[2024-10-24 09:19:09] Script started
+[2024-10-24 09:19:09] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => Jai
+    [last_name] => Prakash R
+    [company_name] => JP TECH
+    [job_role] => CEO 
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 441047
+)
+
+[2024-10-24 09:19:09] Database connected successfully
+[2024-10-24 09:19:09] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => Jai
+    [lastName] => Prakash R
+    [companyName] => JP TECH
+    [jobRole] => CEO
+    [mobileNumber] => 
+)
+
+[2024-10-24 09:19:09] New user, inserting record
+[2024-10-24 09:19:09] Database operation successful. User ID: 147
+[2024-10-24 09:19:09] Script ended
+[2024-10-24 09:23:30] Script started
+[2024-10-24 09:23:30] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => jai 
+    [last_name] => prakash R
+    [company_name] => JP TECH
+    [job_role] => CEO
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 575872
+)
+
+[2024-10-24 09:23:30] Database connected successfully
+[2024-10-24 09:23:30] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => jai
+    [lastName] => prakash R
+    [companyName] => JP TECH
+    [jobRole] => CEO
+    [mobileNumber] => 
+)
+
+[2024-10-24 09:23:30] New user, inserting record
+[2024-10-24 09:23:30] Database operation successful. User ID: 148
+[2024-10-24 09:23:30] Script ended
+[2024-10-28 09:12:56] Script started
+[2024-10-28 09:12:56] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => Jai
+    [last_name] => Prakash R
+    [company_name] => Neural roots
+    [job_role] => CEO
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 282401
+)
+
+[2024-10-28 09:12:56] Database connected successfully
+[2024-10-28 09:12:56] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => Jai
+    [lastName] => Prakash R
+    [companyName] => Neural roots
+    [jobRole] => CEO
+    [mobileNumber] => 
+)
+
+[2024-10-28 09:12:56] New user, inserting record
+[2024-10-28 09:12:56] Database operation successful. User ID: 149
+[2024-10-28 09:12:56] Script ended
+[2024-10-28 09:30:49] Script started
+[2024-10-28 09:30:49] POST data: Array
+(
+    [name_prefix] => MRS
+    [first_name] => jai 
+    [last_name] => R
+    [company_name] => CP CAFE 
+    [job_role] => Web Developer
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 447195
+)
+
+[2024-10-28 09:30:49] Database connected successfully
+[2024-10-28 09:30:49] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MRS
+    [firstName] => jai
+    [lastName] => R
+    [companyName] => CP CAFE
+    [jobRole] => Web Developer
+    [mobileNumber] => 
+)
+
+[2024-10-28 09:30:49] New user, inserting record
+[2024-10-28 09:30:49] Database operation successful. User ID: 150
+[2024-10-28 09:30:49] Script ended
+[2024-10-28 09:38:18] Script started
+[2024-10-28 09:38:18] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => jai 
+    [last_name] => R
+    [company_name] => CP CAFE 
+    [job_role] => Web Developer
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 950819
+)
+
+[2024-10-28 09:38:18] Database connected successfully
+[2024-10-28 09:38:18] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => jai
+    [lastName] => R
+    [companyName] => CP CAFE
+    [jobRole] => Web Developer
+    [mobileNumber] => 
+)
+
+[2024-10-28 09:38:18] New user, inserting record
+[2024-10-28 09:38:18] Database operation successful. User ID: 151
+[2024-10-28 09:38:18] Script ended
+[2024-10-28 16:45:11] Script started
+[2024-10-28 16:45:11] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => Sudhir
+    [last_name] => Dakshinamurthy
+    [company_name] => Mindlinks Inc
+    [job_role] => CTO
+    [mobile_number] => +919845607645
+    [email] => sudhir@mindlinksinc.com
+    [verification_code] => 691108
+)
+
+[2024-10-28 16:45:11] Database connected successfully
+[2024-10-28 16:45:11] Sanitized input: Array
+(
+    [email] => sudhir@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => Sudhir
+    [lastName] => Dakshinamurthy
+    [companyName] => Mindlinks Inc
+    [jobRole] => CTO
+    [mobileNumber] => +919845607645
+)
+
+[2024-10-28 16:45:11] New user, inserting record
+[2024-10-28 16:45:11] Database operation successful. User ID: 152
+[2024-10-28 16:45:11] Script ended
+[2024-10-29 04:51:27] Script started
+[2024-10-29 04:51:27] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => Jai Prakash
+    [last_name] => R
+    [company_name] => Neural Roots
+    [job_role] => CEO
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 224799
+)
+
+[2024-10-29 04:51:27] Database connected successfully
+[2024-10-29 04:51:27] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => Jai Prakash
+    [lastName] => R
+    [companyName] => Neural Roots
+    [jobRole] => CEO
+    [mobileNumber] => 
+)
+
+[2024-10-29 04:51:27] New user, inserting record
+[2024-10-29 04:51:27] Database operation successful. User ID: 153
+[2024-10-29 04:51:27] Script ended
+[2024-10-30 07:30:23] Script started
+[2024-10-30 07:30:23] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => jai 
+    [last_name] => R
+    [company_name] => CP CAFE 
+    [job_role] => Web Developer
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 726480
+)
+
+[2024-10-30 07:30:23] Database connected successfully
+[2024-10-30 07:30:23] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => jai
+    [lastName] => R
+    [companyName] => CP CAFE
+    [jobRole] => Web Developer
+    [mobileNumber] => 
+)
+
+[2024-10-30 07:30:23] New user, inserting record
+[2024-10-30 07:30:23] Database operation successful. User ID: 154
+[2024-10-30 07:30:23] Script ended
+[2024-10-30 09:12:59] Script started
+[2024-10-30 09:12:59] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => jai 
+    [last_name] => R
+    [company_name] => CP CAFE 
+    [job_role] => Web Developer
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 657696
+)
+
+[2024-10-30 09:12:59] Database connected successfully
+[2024-10-30 09:12:59] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => jai
+    [lastName] => R
+    [companyName] => CP CAFE
+    [jobRole] => Web Developer
+    [mobileNumber] => 
+)
+
+[2024-10-30 09:12:59] New user, inserting record
+[2024-10-30 09:12:59] Database operation successful. User ID: 155
+[2024-10-30 09:12:59] Script ended
+[2024-10-30 10:09:08] Script started
+[2024-10-30 10:09:08] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => Jai 
+    [last_name] => Prakash R
+    [company_name] => Jai c
+    [job_role] => CEO
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 553218
+)
+
+[2024-10-30 10:09:08] Database connected successfully
+[2024-10-30 10:09:08] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => Jai
+    [lastName] => Prakash R
+    [companyName] => Jai c
+    [jobRole] => CEO
+    [mobileNumber] => 
+)
+
+[2024-10-30 10:09:08] New user, inserting record
+[2024-10-30 10:09:08] Database operation successful. User ID: 156
+[2024-10-30 10:09:08] Script ended
+[2024-10-30 10:44:19] Script started
+[2024-10-30 10:44:19] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => jai 
+    [last_name] => Prakash R
+    [company_name] => Nueral  Roots   
+    [job_role] => Web Developer
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 744771
+)
+
+[2024-10-30 10:44:19] Database connected successfully
+[2024-10-30 10:44:19] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => jai
+    [lastName] => Prakash R
+    [companyName] => Nueral  Roots
+    [jobRole] => Web Developer
+    [mobileNumber] => 
+)
+
+[2024-10-30 10:44:19] New user, inserting record
+[2024-10-30 10:44:19] Database operation successful. User ID: 157
+[2024-10-30 10:44:19] Script ended
+[2024-10-30 10:49:27] Script started
+[2024-10-30 10:49:27] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => jai 
+    [last_name] => Prakash R
+    [company_name] => CP CAFE 
+    [job_role] => Web Developer
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 968925
+)
+
+[2024-10-30 10:49:27] Database connected successfully
+[2024-10-30 10:49:27] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => jai
+    [lastName] => Prakash R
+    [companyName] => CP CAFE
+    [jobRole] => Web Developer
+    [mobileNumber] => 
+)
+
+[2024-10-30 10:49:27] New user, inserting record
+[2024-10-30 10:49:27] Database operation successful. User ID: 158
+[2024-10-30 10:49:27] Script ended
+[2024-10-30 10:54:19] Script started
+[2024-10-30 10:54:19] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => First
+    [last_name] => Last
+    [company_name] => Company
+    [job_role] => Role
+    [mobile_number] => +918888888888
+    [email] => ganesh@mindlinksinc.com
+    [verification_code] =>  230226
+)
+
+[2024-10-30 10:54:19] Database connected successfully
+[2024-10-30 10:54:19] Sanitized input: Array
+(
+    [email] => ganesh@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => First
+    [lastName] => Last
+    [companyName] => Company
+    [jobRole] => Role
+    [mobileNumber] => +918888888888
+)
+
+[2024-10-30 10:54:19] New user, inserting record
+[2024-10-30 10:54:19] Database operation successful. User ID: 159
+[2024-10-30 10:54:19] Script ended
+[2024-10-30 11:04:32] Script started
+[2024-10-30 11:04:32] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => jai 
+    [last_name] => Prakash R
+    [company_name] => Nueral  Roots   
+    [job_role] => Web Developer
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 895477
+)
+
+[2024-10-30 11:04:32] Database connected successfully
+[2024-10-30 11:04:32] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => jai
+    [lastName] => Prakash R
+    [companyName] => Nueral  Roots
+    [jobRole] => Web Developer
+    [mobileNumber] => 
+)
+
+[2024-10-30 11:04:32] New user, inserting record
+[2024-10-30 11:04:32] Database operation successful. User ID: 160
+[2024-10-30 11:04:32] Script ended
+[2024-10-30 11:06:59] Script started
+[2024-10-30 11:06:59] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => jai 
+    [last_name] => stark
+    [company_name] => Nueral  Roots   
+    [job_role] => CEO
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 792037
+)
+
+[2024-10-30 11:06:59] Database connected successfully
+[2024-10-30 11:06:59] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => jai
+    [lastName] => stark
+    [companyName] => Nueral  Roots
+    [jobRole] => CEO
+    [mobileNumber] => 
+)
+
+[2024-10-30 11:06:59] New user, inserting record
+[2024-10-30 11:06:59] Database operation successful. User ID: 161
+[2024-10-30 11:06:59] Script ended
+[2024-10-31 05:33:43] Script started
+[2024-10-31 05:33:43] POST data: Array
+(
+)
+
+[2024-10-31 05:33:43] Database connected successfully
+[2024-10-31 05:33:43] Invalid request method: GET
+[2024-10-31 05:33:43] Script ended
+[2024-11-01 06:54:42] Script started
+[2024-11-01 06:54:42] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => Jai 
+    [last_name] => Prakash R
+    [company_name] => Nueral  Roots   
+    [job_role] => CEO
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 602357
+)
+
+[2024-11-01 06:54:42] Database connected successfully
+[2024-11-01 06:54:42] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => Jai
+    [lastName] => Prakash R
+    [companyName] => Nueral  Roots
+    [jobRole] => CEO
+    [mobileNumber] => 
+)
+
+[2024-11-01 06:54:42] New user, inserting record
+[2024-11-01 06:54:42] Database operation successful. User ID: 162
+[2024-11-01 06:54:42] Script ended
+[2024-11-01 07:20:38] Script started
+[2024-11-01 07:20:38] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => jai 
+    [last_name] => Prakash R
+    [company_name] => Nueral  Roots   
+    [job_role] => Web Developer
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 109512
+)
+
+[2024-11-01 07:20:38] Database connected successfully
+[2024-11-01 07:20:38] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => jai
+    [lastName] => Prakash R
+    [companyName] => Nueral  Roots
+    [jobRole] => Web Developer
+    [mobileNumber] => 
+)
+
+[2024-11-01 07:20:38] New user, inserting record
+[2024-11-01 07:20:38] Database operation successful. User ID: 163
+[2024-11-01 07:20:38] Script ended
+[2024-11-01 08:23:16] Script started
+[2024-11-01 08:23:16] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => Jai 
+    [last_name] => Prakash R
+    [company_name] => CP CAFE 
+    [job_role] => Web Developer
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 182189
+)
+
+[2024-11-01 08:23:16] Database connected successfully
+[2024-11-01 08:23:16] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => Jai
+    [lastName] => Prakash R
+    [companyName] => CP CAFE
+    [jobRole] => Web Developer
+    [mobileNumber] => 
+)
+
+[2024-11-01 08:23:16] New user, inserting record
+[2024-11-01 08:23:16] Database operation successful. User ID: 164
+[2024-11-01 08:23:16] Script ended
+[2024-11-01 08:28:06] Script started
+[2024-11-01 08:28:06] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => jai 
+    [last_name] => Lee
+    [company_name] => JP TECH
+    [job_role] => CEO
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 317527
+)
+
+[2024-11-01 08:28:06] Database connected successfully
+[2024-11-01 08:28:06] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => jai
+    [lastName] => Lee
+    [companyName] => JP TECH
+    [jobRole] => CEO
+    [mobileNumber] => 
+)
+
+[2024-11-01 08:28:06] New user, inserting record
+[2024-11-01 08:28:06] Database operation successful. User ID: 165
+[2024-11-01 08:28:06] Script ended
+[2024-11-01 09:01:29] Script started
+[2024-11-01 09:01:29] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => sudhir
+    [last_name] => R
+    [company_name] => CP CAFE 
+    [job_role] => Web Developer
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 187304
+)
+
+[2024-11-01 09:01:29] Database connected successfully
+[2024-11-01 09:01:29] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => sudhir
+    [lastName] => R
+    [companyName] => CP CAFE
+    [jobRole] => Web Developer
+    [mobileNumber] => 
+)
+
+[2024-11-01 09:01:29] New user, inserting record
+[2024-11-01 09:01:29] Database operation successful. User ID: 166
+[2024-11-01 09:01:29] Script ended
+[2024-11-01 09:07:35] Script started
+[2024-11-01 09:07:35] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => Jai 
+    [last_name] => Lee
+    [company_name] => Nueral  Roots   
+    [job_role] => Web Developer
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 300123
+)
+
+[2024-11-01 09:07:35] Database connected successfully
+[2024-11-01 09:07:35] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => Jai
+    [lastName] => Lee
+    [companyName] => Nueral  Roots
+    [jobRole] => Web Developer
+    [mobileNumber] => 
+)
+
+[2024-11-01 09:07:35] New user, inserting record
+[2024-11-01 09:07:35] Database operation successful. User ID: 167
+[2024-11-01 09:07:35] Script ended
+[2024-11-01 09:36:48] Script started
+[2024-11-01 09:36:48] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => sudhir
+    [last_name] => R
+    [company_name] => CP CAFE 
+    [job_role] => Chief Information Officer
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 399923
+)
+
+[2024-11-01 09:36:48] Database connected successfully
+[2024-11-01 09:36:48] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => sudhir
+    [lastName] => R
+    [companyName] => CP CAFE
+    [jobRole] => Chief Information Officer
+    [mobileNumber] => 
+)
+
+[2024-11-01 09:36:48] New user, inserting record
+[2024-11-01 09:36:48] Database operation successful. User ID: 168
+[2024-11-01 09:36:48] Script ended
+[2024-11-01 09:58:48] Script started
+[2024-11-01 09:58:48] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => Jai Prakash 
+    [last_name] => R
+    [company_name] => Jaip
+    [job_role] => CEO
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 787464
+)
+
+[2024-11-01 09:58:48] Database connected successfully
+[2024-11-01 09:58:48] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => Jai Prakash
+    [lastName] => R
+    [companyName] => Jaip
+    [jobRole] => CEO
+    [mobileNumber] => 
+)
+
+[2024-11-01 09:58:48] New user, inserting record
+[2024-11-01 09:58:48] Database operation successful. User ID: 169
+[2024-11-01 09:58:48] Script ended
+[2024-11-01 10:16:46] Script started
+[2024-11-01 10:16:46] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => Ganesh
+    [last_name] => Godkhindi
+    [company_name] => Nr
+    [job_role] => Sme
+    [mobile_number] => +917676740170
+    [email] => ganesh@mindlinksinc.com
+    [verification_code] => 188959
+)
+
+[2024-11-01 10:16:46] Database connected successfully
+[2024-11-01 10:16:46] Sanitized input: Array
+(
+    [email] => ganesh@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => Ganesh
+    [lastName] => Godkhindi
+    [companyName] => Nr
+    [jobRole] => Sme
+    [mobileNumber] => +917676740170
+)
+
+[2024-11-01 10:16:46] New user, inserting record
+[2024-11-01 10:16:46] Database operation successful. User ID: 170
+[2024-11-01 10:16:46] Script ended
+[2024-11-01 17:10:03] Script started
+[2024-11-01 17:10:03] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => Jai
+    [last_name] => Prakash 
+    [company_name] => Neural roots
+    [job_role] => CEO
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 731736
+)
+
+[2024-11-01 17:10:03] Database connected successfully
+[2024-11-01 17:10:03] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => Jai
+    [lastName] => Prakash
+    [companyName] => Neural roots
+    [jobRole] => CEO
+    [mobileNumber] => 
+)
+
+[2024-11-01 17:10:03] New user, inserting record
+[2024-11-01 17:10:03] Database operation successful. User ID: 171
+[2024-11-01 17:10:03] Script ended
+[2024-11-02 05:09:00] Script started
+[2024-11-02 05:09:00] POST data: Array
+(
+    [name_prefix] => MRS
+    [first_name] => jai 
+    [last_name] => Lee
+    [company_name] => NueroRoots
+    [job_role] => Web Developer
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 561327
+)
+
+[2024-11-02 05:09:00] Database connected successfully
+[2024-11-02 05:09:00] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MRS
+    [firstName] => jai
+    [lastName] => Lee
+    [companyName] => NueroRoots
+    [jobRole] => Web Developer
+    [mobileNumber] => 
+)
+
+[2024-11-02 05:09:00] New user, inserting record
+[2024-11-02 05:09:00] Database operation successful. User ID: 172
+[2024-11-02 05:09:00] Script ended
+[2024-11-02 05:35:33] Script started
+[2024-11-02 05:35:33] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => Jai 
+    [last_name] => Prakash R
+    [company_name] => Nueral  Roots   
+    [job_role] => CEO
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 552115
+)
+
+[2024-11-02 05:35:33] Database connected successfully
+[2024-11-02 05:35:33] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => Jai
+    [lastName] => Prakash R
+    [companyName] => Nueral  Roots
+    [jobRole] => CEO
+    [mobileNumber] => 
+)
+
+[2024-11-02 05:35:33] New user, inserting record
+[2024-11-02 05:35:33] Database operation successful. User ID: 173
+[2024-11-02 05:35:33] Script ended
+[2024-11-02 06:16:07] Script started
+[2024-11-02 06:16:07] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => Jai
+    [last_name] => Prakash R
+    [company_name] => Neural
+    [job_role] => Web developer 
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 853413
+)
+
+[2024-11-02 06:16:07] Database connected successfully
+[2024-11-02 06:16:07] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => Jai
+    [lastName] => Prakash R
+    [companyName] => Neural
+    [jobRole] => Web developer
+    [mobileNumber] => 
+)
+
+[2024-11-02 06:16:07] New user, inserting record
+[2024-11-02 06:16:07] Database operation successful. User ID: 174
+[2024-11-02 06:16:07] Script ended
+[2024-11-02 11:14:44] Script started
+[2024-11-02 11:14:44] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => Jai 
+    [last_name] => Prakash R 
+    [company_name] => NurealRoots
+    [job_role] => CEO
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 781552
+)
+
+[2024-11-02 11:14:44] Database connected successfully
+[2024-11-02 11:14:44] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => Jai
+    [lastName] => Prakash R
+    [companyName] => NurealRoots
+    [jobRole] => CEO
+    [mobileNumber] => 
+)
+
+[2024-11-02 11:14:44] New user, inserting record
+[2024-11-02 11:14:44] Database operation successful. User ID: 175
+[2024-11-02 11:14:44] Script ended
+[2024-11-03 04:58:28] Script started
+[2024-11-03 04:58:28] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => Jai 
+    [last_name] => Prakash
+    [company_name] => IT INDUSTRY
+    [job_role] => Ceo
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 473010
+)
+
+[2024-11-03 04:58:28] Database connected successfully
+[2024-11-03 04:58:28] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => Jai
+    [lastName] => Prakash
+    [companyName] => IT INDUSTRY
+    [jobRole] => Ceo
+    [mobileNumber] => 
+)
+
+[2024-11-03 04:58:28] New user, inserting record
+[2024-11-03 04:58:28] Database operation successful. User ID: 176
+[2024-11-03 04:58:28] Script ended
+[2024-11-03 06:50:36] Script started
+[2024-11-03 06:50:36] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => Jai 
+    [last_name] => Prakash R
+    [company_name] => TONY Productions 
+    [job_role] => Web Developer
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 104329
+)
+
+[2024-11-03 06:50:36] Database connected successfully
+[2024-11-03 06:50:36] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => Jai
+    [lastName] => Prakash R
+    [companyName] => TONY Productions
+    [jobRole] => Web Developer
+    [mobileNumber] => 
+)
+
+[2024-11-03 06:50:36] New user, inserting record
+[2024-11-03 06:50:36] Database operation successful. User ID: 177
+[2024-11-03 06:50:36] Script ended
+[2024-11-03 07:04:26] Script started
+[2024-11-03 07:04:26] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => Jai 
+    [last_name] => Prakash R
+    [company_name] => JP TECH
+    [job_role] => CEO
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 603476
+)
+
+[2024-11-03 07:04:26] Database connected successfully
+[2024-11-03 07:04:26] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => Jai
+    [lastName] => Prakash R
+    [companyName] => JP TECH
+    [jobRole] => CEO
+    [mobileNumber] => 
+)
+
+[2024-11-03 07:04:26] New user, inserting record
+[2024-11-03 07:04:26] Database operation successful. User ID: 178
+[2024-11-03 07:04:26] Script ended
+[2024-11-03 08:24:30] Script started
+[2024-11-03 08:24:30] POST data: Array
+(
+    [name_prefix] => MRS
+    [first_name] => jai 
+    [last_name] => stark
+    [company_name] => CP CAFE 
+    [job_role] => Web Developer
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 500316
+)
+
+[2024-11-03 08:24:30] Database connected successfully
+[2024-11-03 08:24:30] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MRS
+    [firstName] => jai
+    [lastName] => stark
+    [companyName] => CP CAFE
+    [jobRole] => Web Developer
+    [mobileNumber] => 
+)
+
+[2024-11-03 08:24:30] New user, inserting record
+[2024-11-03 08:24:30] Database operation successful. User ID: 179
+[2024-11-03 08:24:30] Script ended
+[2024-11-03 08:37:30] Script started
+[2024-11-03 08:37:30] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => jai 
+    [last_name] => R
+    [company_name] => CP CAFE 
+    [job_role] => Web Developer
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 347550
+)
+
+[2024-11-03 08:37:30] Database connected successfully
+[2024-11-03 08:37:30] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => jai
+    [lastName] => R
+    [companyName] => CP CAFE
+    [jobRole] => Web Developer
+    [mobileNumber] => 
+)
+
+[2024-11-03 08:37:30] New user, inserting record
+[2024-11-03 08:37:30] Database operation successful. User ID: 180
+[2024-11-03 08:37:30] Script ended
+[2024-11-03 08:49:28] Script started
+[2024-11-03 08:49:28] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => sudhir
+    [last_name] => R
+    [company_name] => CP CAFE 
+    [job_role] => Web Developer
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 920705
+)
+
+[2024-11-03 08:49:28] Database connected successfully
+[2024-11-03 08:49:28] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => sudhir
+    [lastName] => R
+    [companyName] => CP CAFE
+    [jobRole] => Web Developer
+    [mobileNumber] => 
+)
+
+[2024-11-03 08:49:28] New user, inserting record
+[2024-11-03 08:49:28] Database operation successful. User ID: 181
+[2024-11-03 08:49:28] Script ended
+[2024-11-03 09:04:14] Script started
+[2024-11-03 09:04:14] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => jai 
+    [last_name] => Prakash R
+    [company_name] => CP CAFE 
+    [job_role] => Web Developer
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 664834
+)
+
+[2024-11-03 09:04:14] Database connected successfully
+[2024-11-03 09:04:14] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => jai
+    [lastName] => Prakash R
+    [companyName] => CP CAFE
+    [jobRole] => Web Developer
+    [mobileNumber] => 
+)
+
+[2024-11-03 09:04:14] New user, inserting record
+[2024-11-03 09:04:14] Database operation successful. User ID: 182
+[2024-11-03 09:04:14] Script ended
+[2024-11-04 06:34:18] Script started
+[2024-11-04 06:34:18] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => jp
+    [last_name] => stark
+    [company_name] => neural roots
+    [job_role] => CEO
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 515569
+)
+
+[2024-11-04 06:34:18] Database connected successfully
+[2024-11-04 06:34:18] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => jp
+    [lastName] => stark
+    [companyName] => neural roots
+    [jobRole] => CEO
+    [mobileNumber] => 
+)
+
+[2024-11-04 06:34:18] New user, inserting record
+[2024-11-04 06:34:18] Database operation successful. User ID: 183
+[2024-11-04 06:34:18] Script ended
+[2024-11-04 06:36:26] Script started
+[2024-11-04 06:36:26] POST data: Array
+(
+    [name_prefix] => MR
+    [first_name] => Jai Prakash 
+    [last_name] => R
+    [company_name] => Neural roots
+    [job_role] => Web developer
+    [mobile_number] => 
+    [email] => jaiprakash@mindlinksinc.com
+    [verification_code] => 721459
+)
+
+[2024-11-04 06:36:26] Database connected successfully
+[2024-11-04 06:36:26] Sanitized input: Array
+(
+    [email] => jaiprakash@mindlinksinc.com
+    [namePrefix] => MR
+    [firstName] => Jai Prakash
+    [lastName] => R
+    [companyName] => Neural roots
+    [jobRole] => Web developer
+    [mobileNumber] => 
+)
+
+[2024-11-04 06:36:26] New user, inserting record
+[2024-11-04 06:36:26] Database operation successful. User ID: 184
+[2024-11-04 06:36:26] Script ended
+[2024-11-13 00:08:19] Script started
+[2024-11-13 00:08:19] POST data: Array
+(
+)
+
+[2024-11-13 00:08:19] Database connected successfully
+[2024-11-13 00:08:19] Invalid request method: GET
+[2024-11-13 00:08:19] Script ended
+[2024-11-16 01:46:25] Script started
+[2024-11-16 01:46:25] POST data: Array
+(
+)
+
+[2024-11-16 01:46:25] Database connected successfully
+[2024-11-16 01:46:25] Invalid request method: GET
+[2024-11-16 01:46:25] Script ended

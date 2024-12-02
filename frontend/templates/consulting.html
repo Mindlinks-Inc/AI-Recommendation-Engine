@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Salesforce Lead</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            padding: 40px;
+            box-sizing: border-box;
+        }
+        form {
+            display: grid;
+            gap: 30px;
+        }
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 16px;
+            border: none;
+            background-color: #fff;
+            color: #000;
+            border-radius: 5px;
+            font-size: 16px;
+            height: 50px;
+            box-sizing: border-box;
+        }
+        textarea {
+            resize: none;
+            height: 50px;
+            overflow-y: auto;
+        }
+        input::placeholder, textarea::placeholder {
+            color: #666;
+        }
+        input[type="submit"] {
+            grid-column: 2;
+            background-color: #0070d2;
+            color: white;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 18px;
+            padding: 16px 28px;
+            justify-self: end;
+            width: auto;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+            <input type="hidden" name="oid" value="00D3h0000015hRm">
+            <input type="hidden" name="retURL" value="http://www.neuralroots.ai">
+            
+            <div class="form-row">
+                <input id="first_name" maxlength="40" name="first_name" placeholder="First Name" type="text" required>
+                <input id="last_name" maxlength="80" name="last_name" placeholder="Last Name" type="text" required>
+            </div>
+            
+            <div class="form-row">
+                <input id="email" maxlength="80" name="email" placeholder="Email Address" type="email" required>
+                <input id="company" maxlength="40" name="company" placeholder="Company" type="text">
+            </div>
+            
+            <div class="form-row">
+                <input id="website" maxlength="80" name="website" placeholder="Website" type="url">
+                <textarea id="description" name="description" placeholder="Message" style="font-family: Arial, sans-serif;"></textarea>
+            </div>
+            
+            <div class="form-row">
+                <div></div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

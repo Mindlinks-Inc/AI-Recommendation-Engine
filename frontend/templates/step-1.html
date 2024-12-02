@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neural Roots | Kit Details</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Assesment-Templates/frontend/css/step-1.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Assesment-Templates/logo3.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Assesment-Templates/logo3.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Assesment-Templates/logo3.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <style>
+    .nr-main-content {
+            padding-top: 120px; /* Adjust this value based on your header's height */
+        }
+  .nr-header {
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 999;
+            height: 100px; /* Set a fixed height for the header */
+             font-family: Arial, sans-serif;
+        }
+        .nr-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 30px;
+            position: relative;
+        }
+        .nr-clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .nr-logo-container {
+            float: left;
+            padding: 15px 0;
+        }
+        .nr-logo {
+            max-height: 80px;
+            width: auto;
+        }
+        .nr-navigation {
+            float: right;
+            padding-top: 30px;
+        }
+        .nr-menu-nav {
+            padding-bottom: 30px;
+        }
+        .nr-menu {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .nr-menu > li {
+            display: inline-block;
+            padding-right: 35px;
+            font-size: 20px;
+            position: relative;
+        }
+        .nr-menu > li > a {
+            color: #333;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .nr-menu > li > a:hover {
+            color: #0057b8;
+        }
+        .nr-menu li.nr-menu-item-has-children > a:after {
+            content: '\25BE';
+            font-size: 18px;
+            color: #333;
+            margin-left: 8px;
+        }
+        .nr-sub-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #fff;
+            border: 1px solid #e0e0e0;
+            box-shadow: 0 3px 7px rgba(0,0,0,0.1);
+            padding: 15px 0;
+            min-width: 240px;
+        }
+        .nr-menu li.nr-menu-item-has-children:hover .nr-sub-menu {
+            display: block;
+        }
+        .nr-sub-menu li {
+            display: block;
+            padding: 8px 25px;
+        }
+        .nr-sub-menu li a {
+            color: #333;
+            text-decoration: none;
+            font-weight: 400;
+            display: block;
+            font-size: 18px;
+        }
+        .nr-sub-menu li a:hover {
+            color: #0057b8;
+        }
+        .nr-mobile-menu-toggle {
+            display: none;
+            font-size: 32px;
+            color: #333;
+            cursor: pointer;
+            float: right;
+            padding: 25px 0;
+        }
+        .nr-mobile-menu-container {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+        }
+        .nr-mobile-menu {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            width: 80%;
+            max-width: 400px;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+        .nr-mobile-menu ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .nr-mobile-menu li {
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .nr-mobile-menu li:last-child {
+            border-bottom: none;
+        }
+        .nr-mobile-menu a {
+            display: block;
+            padding: 15px 10px;
+            color: #333;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .nr-mobile-menu .nr-sub-menu {
+            display: none;
+            background-color: #f9f9f9;
+            padding-left: 20px;
+        }
+        .nr-mobile-menu .nr-menu-item-has-children > a:after {
+            content: '\25BE';
+            float: right;
+        }
+        .nr-mobile-menu .nr-menu-item-has-children.active > a:after {
+            content: '\25B4';
+        }
+        .nr-mobile-menu .nr-menu-item-has-children.active > .nr-sub-menu {
+            display: block;
+        }
+        @media (max-width: 1080px) {
+              .nr-main-content {
+                padding-top: 100px; /* Adjust this value for mobile */
+            }
+            
+            .nr-menu-nav {
+                display: none;
+            }
+            .nr-mobile-menu-toggle {
+                display: block;
+            }
+        }
+/* Base styles */
+/* Base styles */
+/* Base styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 100%;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#welcomeMessage {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: Black;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#welcomeMessage h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+#welcomeMessage p {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.form-section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.section-title {
+    color: #0057b8;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #0057b8;
+}
+
+.form-label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-control, .custom-select {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus, .custom-select:focus {
+    border-color: #0057b8;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 87, 184, 0.25);
+}
+
+textarea.form-control {
+    resize: vertical;
+}
+
+.custom-control {
+    position: relative;
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.custom-control-input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.custom-control-label {
+    position: relative;
+    margin-bottom: 0;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.custom-control-label::before {
+    position: absolute;
+    top: 0.25rem;
+    left: -1.5rem;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    content: "";
+    background-color: #fff;
+    border: #adb5bd solid 1px;
+    border-radius: 0.25rem;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: #0057b8;
+    background-color: #0057b8;
+}
+
+.btn-primary {
+    background-color: #0057b8;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 4px;
+    transition: background-color 0.15s ease-in-out;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #004194;
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 10px;
+        margin-left: 15px;
+        margin-right: 15px;
+        width: calc(100% - 30px); /* Adjust container width accounting for margins */
+    }
+
+    #welcomeMessage {
+        padding: 15px;
+    }
+
+    #welcomeMessage h1 {
+        font-size: 1.5rem;
+    }
+
+    #welcomeMessage p {
+        font-size: 0.9rem;
+    }
+
+    .form-section {
+        padding: 15px;
+    }
+
+    .section-title {
+        font-size: 1.1rem;
+    }
+
+    .form-control, .custom-select, .btn-primary {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+
+
+
+
+ body, html {
+        margin: 0;
+        padding: 0;
+        /*font-family: 'Poppins', sans-serif;*/
+    }
+    .footer {
+        background-color: #000;
+        color: #fff;
+        padding: 40px 0 0;
+    }
+    .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 20px;
+ font-family: Arial, sans-serif;
+    }
+    .footer-section {
+        flex: 1 1 200px;
+        margin-bottom: 20px;
+    }
+    .footer-logo img {
+        max-width: 150px;
+        margin-bottom: 10px;
+    }
+    .footer h3 {
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    .footer ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    .footer ul li {
+        margin-bottom: 10px;
+    }
+    .footer a {
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    .footer a:hover, .footer a:active {
+        color: #0057b8; /* Blue color from the Neural Roots logo */
+        text-decoration: none;
+    }
+    .social-icons {
+        margin-top: 20px;
+    }
+    .social-icons a {
+        margin-right: 10px;
+    }
+    .social-icons svg {
+        transition: fill 0.3s ease;
+    }
+    .social-icons a:hover svg, .social-icons a:active svg {
+        fill: #0057b8;
+    }
+    .copyright {
+        background-color: #333;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    @media (max-width: 768px) {
+        .footer-content {
+            flex-direction: column;
+        }
+        .footer-section {
+            margin-bottom: 30px;
+        }
+    }
+        </style>
+
+</head>
+
+<header class="nr-header">
+    <div class="nr-container nr-clearfix">
+        <div class="nr-logo-container">
+            <a href="https://neuralroots.ai/">
+                <img src="https://neuralroots.ai/wp-content/uploads/2024/09/cropped-n28.png" alt="Neural Roots" class="nr-logo" />
+            </a>
+        </div>
+        <div class="nr-navigation">
+            <nav class="nr-menu-nav">
+                <ul class="nr-menu">
+                    <li><a href="https://neuralroots.ai/">Home</a></li>
+                    <li><a href="https://neuralroots.ai/solutions/">Solutions</a></li>
+                    <li class="nr-menu-item-has-children"><a href="https://neuralroots.ai/services/">Services</a>
+                        <ul class="nr-sub-menu">
+                            <li><a href="https://neuralroots.ai/services/consulting/">Consulting</a></li>
+                            <li><a href="https://neuralroots.ai/services/implementation/">Implementation</a></li>
+                            <li><a href="https://neuralroots.ai/services/enablement/">Enablement</a></li>
+                            <li><a href="https://neuralroots.ai/services/security/">Security</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://neuralroots.ai/blogs/">Blogs</a></li>
+                    <li><a href="https://neuralroots.ai/contact-us/">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="nr-mobile-menu-toggle">&#9776;</div>
+        </div>
+    </div>
+</header>
+
+<div class="nr-mobile-menu-container">
+    <div class="nr-mobile-menu">
+        <ul>
+            <li><a href="https://neuralroots.ai/">Home</a></li>
+            <li><a href="https://neuralroots.ai/solutions/">Solutions</a></li>
+            <li class="nr-menu-item-has-children"><a href="https://neuralroots.ai/services/">Services</a>
+                <ul class="nr-sub-menu">
+                    <li><a href="https://neuralroots.ai/services/consulting/">Consulting</a></li>
+                    <li><a href="https://neuralroots.ai/services/implementation/">Implementation</a></li>
+                    <li><a href="https://neuralroots.ai/services/enablement/">Enablement</a></li>
+                    <li><a href="https://neuralroots.ai/services/security/">Security</a></li>
+                </ul>
+            </li>
+            <li><a href="https://neuralroots.ai/blogs/">Blogs</a></li>
+            <li><a href="https://neuralroots.ai/contact-us/">Contact Us</a></li>
+        </ul>
+    </div>
+</div>
+
+
+    <div class="body">
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6" style="text-align:left; margin-top:150px">
+                <div id="welcomeMessage">
+                    <h1>Welcome, <span id="firstNameDisplay"></span> <span id="lastNameDisplay"></span>!</h1>
+                    <p>Let's begin with the Assessment.</p>
+                </div>
+                <div class="container mb-5">
+                    <p class="neural">NeuralRoots Assessment Kit</p>
+                    <hr>
+                    <p class="about mr-5 mb-3">Company Details</p>
+                    <form id="step1Form" action="/Assesment-Templates/backend/submit_form.php" method="POST">
+                        <input type="hidden" name="user_id" id="user_id" value="">
+
+
+                        <label for="Brief" class="form-label pt-3">Brief About Your Company *</label>
+                        <textarea id="Brief" name="Brief" class="form-control" placeholder="Enter here" rows="5" required></textarea>
+
+                        <div class="form-group">
+                            <label for="company-size" class="form-label pt-3">Company Size *</label>
+                            <select id="company-size" name="company_size" class="form-control" required>
+                                <option value="" disabled selected>Choose your company size</option>
+                                <option value="1-10">1-10</option>
+                                <option value="11-50">11-50</option>
+                                <option value="51-200">51-200</option>
+                                <option value="201-500">201-500</option>
+                                <option value="501-1000">501-1000</option>
+                                <option value="1000+">1000+</option>
+                            </select>
+                        </div>
+
+                        <!-- Additional form fields -->
+                        
+                        <hr>
+                        <p class="challe mr-5 mb-3">Business Challenges</p>
+                        
+                        <!--demo data-->
+                        <!--<div class="mb-3">-->
+                        <!--  <label for="challenge-duration" class="form-label">How long have you been facing this challenge? *</label>-->
+                        <!--  <input type="number" id="challenge-duration" name="challenge-duration" class="form-control" required>-->
+                        <!--</div>-->
+                        
+                        <!--<div class="mb-3">-->
+                        <!--  <label for="challenge-effect" class="form-label">What effect is this challenge having on your business? *</label>-->
+                        <!--  <select id="challenge-effect" name="challenge-effect" class="form-control" required>-->
+                        <!--    <option value="">Select an option</option>-->
+                        <!--    <option value="financial-loss">Financial loss</option>-->
+                        <!--    <option value="reduced-productivity">Reduced productivity</option>-->
+                        <!--    <option value="increased-stress">Increased stress</option>-->
+                        <!--    <option value="other">Other (please specify)</option>-->
+                        <!--  </select>-->
+                        <!--</div>-->
+                        <!--demo data-->
+
+                        <label for="cbc" class="form-label">Current Business Plans, Goals and Challenges *</label>
+                        <textarea id="cbc" name="cbc" class="form-control" placeholder="Enter here" rows="5" required></textarea>
+
+                        <label for="ib" class="form-label pt-4">Any Inefficiencies or Bottlenecks *</label>
+                        <textarea id="ib" name="ib" class="form-control" placeholder="Enter here" rows="5" required></textarea>
+
+                        <!-- AI Outcomes Section -->
+                        <div class="form-group">
+                            <p class="form-label pt-4">Expected AI Outcomes *</p>
+                            <div class="multiselect-dropdown5">
+                                <div id="ai-outcomes-box" class="multiselect-dropdown-box5">Select Expected AI Outcomes</div>
+                                <div id="ai-outcomes-list" class="multiselect-dropdown-list5">
+                                    <label><input type="checkbox" name="ai_outcomes[]" value="Cost Reduction"> Cost Reduction</label>
+                                    <label><input type="checkbox" name="ai_outcomes[]" value="Increased Efficiency"> Increased Efficiency</label>
+                                    <label><input type="checkbox" name="ai_outcomes[]" value="Better Decision Making"> Better Decision Making</label>
+                                    <label><input type="checkbox" name="ai_outcomes[]" value="Improved Customer Experience"> Improved Customer Experience</label>
+                                    <label><input type="checkbox" name="ai_outcomes[]" value="New Revenue Streams"> New Revenue Streams</label>
+                                    <label><input type="checkbox" name="ai_outcomes[]" value="Other"> Other</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3 class="form-label pt-4">Rank the following areas based on your company maturity level (1: Highest, 5: Lowest) *</h3>
+                        <div class="ranking-container mb-2">
+                            <div class="ranking-form">
+                                <ul id="ranking-list" class="ranking-list">
+                                    <li>
+                                        <span>Customer Service</span>
+                                        <select name="customer_service" required>
+                                            <option value="">Rank</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </li>
+                                    <li>
+                                        <span>Sales and Marketing</span>
+                                        <select name="sales_marketing" required>
+                                            <option value="">Rank</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </li>
+                                    <li>
+                                        <span>Operations and Logistics</span>
+                                        <select name="operations_logistics" required>
+                                            <option value="">Rank</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </li>
+                                    <li>
+                                        <span>Product Development</span>
+                                        <select name="product_development" required>
+                                            <option value="">Rank</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </li>
+                                    <li>
+                                        <span>Financial Management</span>
+                                        <select name="financial_management" required>
+                                            <option value="">Rank</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <hr>
+                        <p class="ai-knowledge mr-5 mb-3">AI Knowledge and Expectations</p>
+
+                        <!-- Existing AI Solutions Section -->
+                        <div class="form-group">
+                            <label class="form-label pt-4">Existing AI/ML Solutions *</label>
+                            <div>
+                                <input type="radio" id="existing-ai-ml-yes" name="existing-ai-ml" value="Yes" required>
+                                <label for="existing-ai-ml-yes">Yes</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="existing-ai-ml-no" name="existing-ai-ml" value="No" required>
+                                <label for="existing-ai-ml-no">No</label>
+                            </div>
+                        </div>
+
+                        <div id="specify-ai-ml" style="display: none;">
+                            <label for="specify-ai-ml-textarea" class="form-label pt-4">If Yes to AI/ML Solutions, Please Specify</label>
+                            <textarea id="specify-ai-ml-textarea" name="specify-ai-ml-textarea" class="form-control" placeholder="Enter details about your existing AI/ML solutions" rows="5"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <p class="form-label pt-3">Primary AI Adoption Concerns *</p>
+                            <div class="multiselect-dropdown4">
+                                <div id="ai-concerns-box" class="multiselect-dropdown-box4">Select Primary AI Adoption Concerns</div>
+                                <div id="ai-concerns-list" class="multiselect-dropdown-list4">
+                                    <label><input type="checkbox" name="ai_concerns[]" value="Cost"> Cost</label>
+                                    <label><input type="checkbox" name="ai_concerns[]" value="Integration Complexity"> Integration Complexity</label>
+                                    <label><input type="checkbox" name="ai_concerns[]" value="Skills Gap"> Skills Gap</label>
+                                    <label><input type="checkbox" name="ai_concerns[]" value="Data Privacy"> Data Privacy</label>
+                                    <label><input type="checkbox" name="ai_concerns[]" value="Regulatory Compliance"> Regulatory Compliance</label>
+                                    <label><input type="checkbox" name="ai_concerns[]" value="ROI Uncertainty"> ROI Uncertainty</label>
+                                    <label><input type="checkbox" name="ai_concerns[]" value="Other"> Other</label>
+                                </div>
+                            </div>
+
+                            <p class="form-label pt-4">Interested AI Capabilities *</p>
+                            <div class="multiselect-dropdown5">
+                                <div id="ai-capabilities-box" class="multiselect-dropdown-box5">Select Interested AI Capabilities</div>
+                                <div id="ai-capabilities-list" class="multiselect-dropdown-list5">
+                                    <label><input type="checkbox" name="ai_capabilities[]" value="Predictive Analytics"> Predictive Analytics</label>
+                                    <label><input type="checkbox" name="ai_capabilities[]" value="Natural Language Processing"> Natural Language Processing</label>
+                                    <label><input type="checkbox" name="ai_capabilities[]" value="Computer Vision"> Computer Vision</label>
+                                    <label><input type="checkbox" name="ai_capabilities[]" value="Robotics Process Automation"> Robotics Process Automation</label>
+                                    <label><input type="checkbox" name="ai_capabilities[]" value="Recommendation Systems"> Recommendation Systems</label>
+                                    <label><input type="checkbox" name="ai_capabilities[]" value="Other"> Other</label>
+                                </div>
+                            </div>
+
+                            <div>
+                                <p class="form-label pt-4">AI Investment Readiness *</p>
+                                <select id="ai-investment-readiness" name="ai_investment_readiness" class="dropdown-select" required>
+                                    <option value="" disabled selected>Select your Investment Readiness</option>
+                                    <option value="Ready to Invest">Ready to Invest</option>
+                                    <option value="Exploring Options">Exploring Options</option>
+                                    <option value="Unsure">Unsure</option>
+                                    <option value="Not Ready">Not Ready</option>
+                                </select>
+                            </div>
+
+                            <div class="ai-implementation-approach">
+                                <label class="form-label pt-4">Preferred AI Implementation Approach *</label>
+                                <div>
+                                    <input type="radio" id="ai-implementation-inhouse" name="ai_implementation_approach" value="Build In-house" required>
+                                    <label for="ai-implementation-inhouse">Build In-house</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="ai-implementation-vendor" name="ai_implementation_approach" value="Partner with AI Vendor" required>
+                                    <label for="ai-implementation-vendor">Partner with AI Vendor</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="ai-implementation-hybrid" name="ai_implementation_approach" value="Hybrid Approach" required>
+                                    <label for="ai-implementation-hybrid">Hybrid Approach</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="ai-implementation-poc" name="ai_implementation_approach" value="Preferred Approach/Proof of Concept" required>
+                                    <label for="ai-implementation-poc">Preferred Approach/Proof of Concept</label>
+                                </div>
+                            </div>
+                            
+                        
+
+                            <label for="additional-comments" class="form-label pt-4">Additional Comments or Questions</label>
+                            <textarea id="additional-comments" name="additional_comments" class="form-control" placeholder="Enter here" rows="5"></textarea>
+                        </div>
+                        
+                        <!--<div class="form-group">-->
+                        <!--        <label for="future_goals" class="form-label">Future Business Goals *</label>-->
+                        <!--        <input type="text" id="future_goals" name="future_goals" class="form-control" placeholder="Enter your future business goals" required>-->
+                        <!--    </div>-->
+                            
+                            <!-- Textarea for a new field -->
+                        <!--    <div class="form-group">-->
+                        <!--        <label for="competitor_analysis" class="form-label">Competitor Analysis *</label>-->
+                        <!--        <textarea id="competitor_analysis" name="competitor_analysis" class="form-control" placeholder="Describe your main competitors and your competitive advantage" rows="4" required></textarea>-->
+                        <!--    </div>-->
+                            
+                            <!-- Select dropdown for a new field -->
+                        <!--    <div class="form-group">-->
+                        <!--        <label for="target_market" class="form-label">Primary Target Market *</label>-->
+                        <!--        <select id="target_market" name="target_market" class="form-control" required>-->
+                        <!--            <option value="">Select your primary target market</option>-->
+                        <!--            <option value="B2C">B2C (Business to Consumer)</option>-->
+                        <!--            <option value="B2B">B2B (Business to Business)</option>-->
+                        <!--            <option value="B2G">B2G (Business to Government)</option>-->
+                        <!--            <option value="C2C">C2C (Consumer to Consumer)</option>-->
+                        <!--        </select>-->
+                        <!--    </div>-->
+                            
+                            <div class="b1 mt-4 mb-4">
+                            <button type="submit" class="button1 pb-1">Submit</button>
+                        </div>
+                        
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <div class="footer-logo">
+                <img src="https://neuralroots.ai/wp-content/uploads/2024/09/all-logos-1.png" alt="Neural Roots Logo">
+            </div>
+        </div>
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="https://neuralroots.ai/">Home</a></li>
+                <li><a href="https://neuralroots.ai/solution/">Solutions</a></li>
+                <li><a href="https://neuralroots.ai/services/">Services</a></li>
+                <li><a href="https://neuralroots.ai/blogs/">Blogs</a></li>
+                <li><a href="https://neuralroots.ai/contact-us/">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Legal</h3>
+            <ul>
+                <li><a href="https://neuralroots.ai/privacy-policy/">Privacy Policy</a></li>
+                <li><a href="https://neuralroots.ai/terms-conditions/">Terms and Conditions</a></li>
+            </ul>
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/company/neural-roots-ai" aria-label="LinkedIn"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg></a>
+                <a href="https://x.com/NeuralRoots" aria-label="X (formerly Twitter)">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="footer-section">
+            <h3>Get in Touch</h3>
+            <p>Call Us: <a href="tel:+1-917-300-0680">+1-917-300-0680</a> | <a href="tel:+1-917-546-6749">+1-917-546-6749</a> | <a href="tel:+91-9845607645">+91-9845607645</a></p>
+            <p>Email: <a href="mailto:info@neuralroots.ai">info@neuralroots.ai</a></p>
+            <p>USA | UK | India</p>
+        </div>
+    </div>
+    <div class="copyright">
+        Copyright ©2024 - Neural Roots - All rights reserved | Designed by Market Bird
+    </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/Assesment-Templates/frontend/js/orientation.js"></script>
+    <script src="/Assesment-Templates/frontend/js/radio.js"></script>
+    <script src="/Assesment-Templates/frontend/js/outcomes.js"></script>
+    <script src="/Assesment-Templates/frontend/js/validateranking.js"></script>
+    <script src="/Assesment-Templates/frontend/js/aiadoption.js"></script>
+    <script src="/Assesment-Templates/frontend/js/aiCapabilitiesDropdown.js"></script>
+  
+<!-- First Script to handle AI/ML radio button -->
+
+    <script>
+// Auto-fill function
+window.onload = function() {
+    // Basic company info
+    document.getElementById('Brief').value = "Neural Roots is a cutting-edge artificial intelligence solutions provider, established in 2020, specializing in developing custom machine learning models and AI-driven analytics platforms for enterprise clients. With a team of 150+ AI specialists, data scientists, and engineers, we've successfully delivered over 200 projects across various industries.";
+    
+    document.getElementById('company-size').value = "51-200";
+    
+    document.getElementById('cbc').value = "Our strategic focus for 2024-2025 centers on expanding our market presence in healthcare and financial sectors while developing innovative AI solutions for emerging markets. The primary goals include achieving 150% year-over-year growth, launching our proprietary AI model monitoring platform.";
+    
+    document.getElementById('ib').value = "Our rapid growth has highlighted several operational challenges. The most significant bottleneck exists in our model deployment pipeline, where testing and validation processes often create substantial delays. Knowledge transfer between expanding teams has become increasingly complex.";
+
+    // Rankings
+    document.querySelector('select[name="customer_service"]').value = "2";
+    document.querySelector('select[name="sales_marketing"]').value = "1";
+    document.querySelector('select[name="operations_logistics"]').value = "3";
+    document.querySelector('select[name="product_development"]').value = "1";
+    document.querySelector('select[name="financial_management"]').value = "2";
+
+    // AI/ML Solutions
+    document.getElementById('existing-ai-ml-yes').checked = true;
+    document.getElementById('specify-ai-ml').style.display = 'block';
+    document.getElementById('specify-ai-ml-textarea').value = "We've integrated several AI-powered solutions including automated code review system, ML-powered project timeline prediction, and NLP for client requirement analysis.";
+
+    // Investment and Implementation
+    document.getElementById('ai-investment-readiness').value = "Ready to Invest";
+    document.getElementById('ai-implementation-hybrid').checked = true;
+
+    // Additional Comments
+    document.getElementById('additional-comments').value = "We are actively seeking partnerships with research institutions to advance our AI capabilities.";
+
+    // Check multiple checkboxes
+    const aiOutcomes = ["Cost Reduction", "Increased Efficiency", "Better Decision Making"];
+    aiOutcomes.forEach(outcome => {
+        document.querySelector(`input[name="ai_outcomes[]"][value="${outcome}"]`).checked = true;
+    });
+
+    const aiConcerns = ["Integration Complexity", "Skills Gap", "Data Privacy"];
+    aiConcerns.forEach(concern => {
+        document.querySelector(`input[name="ai_concerns[]"][value="${concern}"]`).checked = true;
+    });
+
+    const aiCapabilities = ["Predictive Analytics", "Natural Language Processing", "Computer Vision"];
+    aiCapabilities.forEach(capability => {
+        document.querySelector(`input[name="ai_capabilities[]"][value="${capability}"]`).checked = true;
+    });
+};
+
+// </script>
+<script>
+    const yesRadio = document.getElementById('existing-ai-ml-yes');
+    const noRadio = document.getElementById('existing-ai-ml-no');
+    const specifyAiMlDiv = document.getElementById('specify-ai-ml');
+
+    yesRadio.addEventListener('click', () => {
+        specifyAiMlDiv.style.display = 'block';
+    });
+
+    noRadio.addEventListener('click', () => {
+        specifyAiMlDiv.style.display = 'none';
+    });
+
+    // Form submission handling
+    document.querySelector('form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        // Perform client-side validation
+        let isValid = true;
+        
+        // Check if required fields are filled
+        this.querySelectorAll('[required]').forEach(field => {
+            if (!field.value) {
+                isValid = false;
+                field.style.borderColor = 'red';
+            } else {
+                field.style.borderColor = '';
+            }
+        });
+        
+        // Check if at least one AI outcome is selected
+        if (this.querySelectorAll('input[name="ai_outcomes[]"]:checked').length === 0) {
+            isValid = false;
+            document.getElementById('ai-outcomes-box').style.borderColor = 'red';
+        } else {
+            document.getElementById('ai-outcomes-box').style.borderColor = '';
+        }
+        
+        // Check if at least one AI concern is selected
+        if (this.querySelectorAll('input[name="ai_concerns[]"]:checked').length === 0) {
+            isValid = false;
+            document.getElementById('ai-concerns-box').style.borderColor = 'red';
+        } else {
+            document.getElementById('ai-concerns-box').style.borderColor = '';
+        }
+        
+        // Check if at least one AI capability is selected
+        if (this.querySelectorAll('input[name="ai_capabilities[]"]:checked').length === 0) {
+            isValid = false;
+            document.getElementById('ai-capabilities-box').style.borderColor = 'red';
+        } else {
+            document.getElementById('ai-capabilities-box').style.borderColor = '';
+        }
+        
+        // If validation passes, submit the form
+        if (isValid) {
+            this.submit();
+        } else {
+            alert('Please fill in all required fields and make sure to select at least one option for AI outcomes, concerns, and capabilities.');
+        }
+    });
+</script>
+
+<script>
+    $(document).ready(function() {
+        // Function to get query parameters
+        function getQueryParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+
+        // Get values from URL
+        const firstName = getQueryParam('first_name');
+        const lastName = getQueryParam('last_name');
+        const userId = getQueryParam('user_id');
+
+        console.log('First Name:', firstName);
+        console.log('Last Name:', lastName);
+        console.log('User ID:', userId);
+
+        // Set name in welcome message
+        if (firstName && lastName) {
+            $('#firstNameDisplay').text(firstName);
+            $('#lastNameDisplay').text(lastName);
+            console.log('Name display updated');
+        }
+
+        // Set user ID in hidden input
+        if (userId) {
+            $('#user_id').val(userId);
+            console.log('User ID set');
+        }
+
+        // Show/hide the AI/ML specification field based on radio buttons
+        $('#existing-ai-ml-yes').on('click', function() {
+            $('#specify-ai-ml').show();
+        });
+        $('#existing-ai-ml-no').on('click', function() {
+            $('#specify-ai-ml').hide();
+        });
+
+        // Handle form submission
+        $('#step1Form').on('submit', function(e) {
+            e.preventDefault();
+
+            // Validate form fields
+            let isValid = true;
+            $(this).find('[required]').each(function() {
+                if (!$(this).val()) {
+                    isValid = false;
+                    $(this).css('border-color', 'red');
+                } else {
+                    $(this).css('border-color', '');
+                }
+            });
+
+            // Check checkboxes for AI outcomes, concerns, and capabilities
+            ['ai_outcomes', 'ai_concerns', 'ai_capabilities'].forEach(function(field) {
+                if ($(`input[name="${field}[]"]:checked`).length === 0) {
+                    isValid = false;
+                    $(`#${field}-box`).css('border-color', 'red');
+                } else {
+                    $(`#${field}-box`).css('border-color', '');
+                }
+            });
+
+            // If valid, submit the form via AJAX
+            if (isValid) {
+                $.ajax({
+                    url: $(this).attr('action'),
+                    type: 'POST',
+                    data: $(this).serialize(),
+                    dataType: 'json',
+                    success: function(response) {
+                        if (response.success) {
+                            alert('Form submitted successfully!');
+                            // Redirect to the next step with query parameters
+                            window.location.href = `/Assesment-Templates/frontend/templates/step-1.html?user_id=${response.user_id}&first_name=${response.first_name}&last_name=${response.last_name}`;
+                        } else {
+                            alert('Error: ' + response.message);
+                        }
+                    },
+                    error: function(jqXHR, textStatus, errorThrown) {
+                        console.error('AJAX error:', textStatus, errorThrown);
+                        alert('Error: Could not reach the server. Please try again later.');
+                    }
+                });
+            } else {
+                alert('Please fill in all required fields and select at least one option for AI outcomes, concerns, and capabilities.');
+            }
+        });
+    });
+</script>
+
+
+<script>
+        $(document).ready(function() {
+            function displayUserInfo() {
+                var firstName = localStorage.getItem('userFirstName');
+                var lastName = localStorage.getItem('userLastName');
+                var userId = localStorage.getItem('userId');
+
+                console.log('Retrieved from localStorage:', { firstName, lastName, userId });
+
+                if (firstName && lastName) {
+                    $('#firstNameDisplay').text(firstName);
+                    $('#lastNameDisplay').text(lastName);
+                    console.log('Name display updated');
+                } else {
+                    console.log('Name not found in localStorage');
+                    $('#firstNameDisplay').text('Guest');
+                    $('#lastNameDisplay').text('');
+                }
+
+                if (userId) {
+                    $('#user_id').text(userId);
+                    console.log('User ID set');
+                } else {
+                    console.log('User ID not found in localStorage');
+                    $('#user_id').text('Not available');
+                }
+            }
+
+            displayUserInfo();
+
+            // Optional: Clear localStorage when leaving step-1.html
+            $(window).on('beforeunload', function() {
+                localStorage.removeItem('userFirstName');
+                localStorage.removeItem('userLastName');
+                localStorage.removeItem('userId');
+            });
+        });
+    </script>
+    
+    <script>
+    document.querySelector('.nr-mobile-menu-toggle').addEventListener('click', function() {
+        document.querySelector('.nr-mobile-menu-container').style.display = 'block';
+    });
+
+    document.querySelector('.nr-mobile-menu-container').addEventListener('click', function(e) {
+        if (e.target === this) {
+            this.style.display = 'none';
+        }
+    });
+
+    var mobileMenuItems = document.querySelectorAll('.nr-mobile-menu .nr-menu-item-has-children');
+    mobileMenuItems.forEach(function(item) {
+        item.addEventListener('click', function(e) {
+            if (e.target.tagName === 'A' && e.target.parentElement.classList.contains('nr-menu-item-has-children')) {
+                e.preventDefault();
+                this.classList.toggle('active');
+            }
+        });
+    });
+</script>
+
+
+
+</body>
+</html>

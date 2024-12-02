@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neural Roots | User information </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="/Assesment-Templates/frontend/css/valid.css">-->
+    <link rel="icon" type="image/png" sizes="32x32" href="/Assesment-Templates/logo3.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Assesment-Templates/logo3.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Assesment-Templates/logo3.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css">
+    <style>
+    
+      body, html {
+            margin: 0;
+            padding: 0;
+             font-family: Arial, sans-serif;
+            
+        }
+        #main-header {
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 999;
+             font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 30px;
+            position: relative;
+        }
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .logo_container {
+            float: left;
+            padding: 15px 0;
+        }
+        #logo {
+            max-height: 80px;
+            width: auto;
+        }
+        #et-top-navigation {
+            float: right;
+            padding-top: 30px;
+        }
+        #top-menu-nav {
+            padding-bottom: 30px;
+        }
+        #top-menu {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        #top-menu > li {
+            display: inline-block;
+            padding-right: 35px;
+            font-size: 20px;
+            position: relative;
+        }
+        #top-menu > li > a {
+            color: #333;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        #top-menu > li > a:hover {
+            color: #0057b8;
+        }
+        #top-menu li.menu-item-has-children > a:after {
+            content: '\25BE';
+            font-size: 18px;
+            color: #333;
+            margin-left: 8px;
+        }
+        .sub-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #fff;
+            border: 1px solid #e0e0e0;
+            box-shadow: 0 3px 7px rgba(0,0,0,0.1);
+            padding: 15px 0;
+            min-width: 240px;
+        }
+        #top-menu li.menu-item-has-children:hover .sub-menu {
+            display: block;
+        }
+        .sub-menu li {
+            display: block;
+            padding: 8px 25px;
+        }
+        .sub-menu li a {
+            color: #333;
+            text-decoration: none;
+            font-weight: 400;
+            display: block;
+            font-size: 18px;
+        }
+        .sub-menu li a:hover {
+            color: #0057b8;
+        }
+        #mobile-menu-toggle {
+            display: none;
+            font-size: 32px;
+            color: #333;
+            cursor: pointer;
+            float: right;
+            padding: 25px 0;
+        }
+        #mobile-menu-container {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+        }
+        #mobile-menu {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            width: 80%;
+            max-width: 400px;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+        #mobile-menu ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        #mobile-menu li {
+            border-bottom: 1px solid #e0e0e0;
+        }
+        #mobile-menu li:last-child {
+            border-bottom: none;
+        }
+        #mobile-menu a {
+            display: block;
+            padding: 15px 10px;
+            color: #333;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        #mobile-menu .sub-menu {
+            display: none;
+            background-color: #f9f9f9;
+            padding-left: 20px;
+        }
+        #mobile-menu .menu-item-has-children > a:after {
+            content: '\25BE';
+            float: right;
+        }
+        #mobile-menu .menu-item-has-children.active > a:after {
+            content: '\25B4';
+        }
+        #mobile-menu .menu-item-has-children.active > .sub-menu {
+            display: block;
+        }
+        @media (max-width: 1080px) {
+            #top-menu-nav {
+                display: none;
+            }
+            #mobile-menu-toggle {
+                display: block;
+            }
+        }
+        
+        #main-header {
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 999;
+        margin-bottom: 20px; /* Add margin to the bottom of the header */
+    }
+        
+        body {
+            padding-top: 120px;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .divi-user-info-container {
+            max-width: 800px;
+            width: 100%;
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: 40px auto;
+        }
+        .divi-form-group {
+            margin-bottom: 20px;
+        }
+        .divi-form-input {
+            font-size: 16px;
+        }
+        .divi-form-btn {
+            font-size: 16px;
+        }
+        .divi-form-disclaimer {
+            width: 100%;
+            margin: 20px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .divi-form-disclaimer h2 {
+            font-size: 14px;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 10px;
+        }
+        .divi-form-disclaimer p {
+            font-size: 12px;
+            margin: 0;
+            line-height: 1.5;
+            padding: 10px;
+        }
+        .divi-form-disclaimer-content {
+            max-height: 100px;
+            overflow-y: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .divi-form-disclaimer-content.expanded {
+            max-height: 1000px;
+        }
+        .divi-form-disclaimer-toggle {
+            background-color: #f0f0f0;
+            border: none;
+            width: 100%;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        @media (max-width: 767px) {
+            .divi-user-info-container {
+                max-width: 95%;
+                padding: 20px;
+                margin: 20px auto;
+            }
+            .divi-form-heading {
+                font-size: 24px;
+                margin-bottom: 20px;
+            }
+            .divi-form-group {
+                margin-bottom: 15px;
+            }
+            .divi-form-input, .divi-form-btn {
+                font-size: 14px;
+            }
+            .divi-form-disclaimer h2 {
+                font-size: 12px;
+            }
+            .divi-form-disclaimer p {
+                font-size: 10px;
+            }
+            .divi-form-disclaimer-toggle {
+                font-size: 12px;
+            }
+        }
+        
+        <style>
+  
+ body, html {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+    .footer {
+        background-color: #000;
+        color: #fff;
+        padding: 40px 0 0;
+    }
+    .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 20px;
+         font-family: Arial, sans-serif;
+    }
+    .footer-section {
+        flex: 1 1 200px;
+        margin-bottom: 20px;
+    }
+    .footer-logo img {
+        max-width: 150px;
+        margin-bottom: 10px;
+    }
+    .footer h3 {
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    .footer ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    .footer ul li {
+        margin-bottom: 10px;
+    }
+    .footer a {
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    .footer a:hover, .footer a:active {
+        color: #0057b8; /* Blue color from the Neural Roots logo */
+        text-decoration: none;
+    }
+    .social-icons {
+        margin-top: 20px;
+    }
+    .social-icons a {
+        margin-right: 10px;
+    }
+    .social-icons svg {
+        transition: fill 0.3s ease;
+    }
+    .social-icons a:hover svg, .social-icons a:active svg {
+        fill: #0057b8;
+    }
+    .copyright {
+        background-color: #333;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    @media (max-width: 768px) {
+        .footer-content {
+            flex-direction: column;
+        }
+        .footer-section {
+            margin-bottom: 30px;
+        }
+    }
+    
+    #emailError a {
+    color: #0000EE;  /* Default link color */
+    text-decoration: underline;
+}
+
+#emailError a:hover {
+    color: #551A8B;  /* Color when hovering over the link */
+    text-decoration: none;
+}
+</style>
+
+</head>
+
+<header id="main-header">
+    <div class="container clearfix">
+        <div class="logo_container">
+            <a href="https://neuralroots.ai/">
+                <img src="https://neuralroots.ai/wp-content/uploads/2024/09/cropped-n28.png" alt="Neural Roots" id="logo" />
+            </a>
+        </div>
+        <div id="et-top-navigation">
+            <nav id="top-menu-nav">
+                <ul id="top-menu" class="nav">
+                    <li><a href="https://neuralroots.ai/">Home</a></li>
+                    <li><a href="https://neuralroots.ai/solution/">Solutions</a></li>
+                    <li class="menu-item-has-children"><a href="https://neuralroots.ai/services/">Services</a>
+                        <ul class="sub-menu">
+                            <li><a href="https://neuralroots.ai/services/consulting/">Consulting</a></li>
+                            <li><a href="https://neuralroots.ai/services/implementation/">Implementation</a></li>
+                            <li><a href="https://neuralroots.ai/services/enablement/">Enablement</a></li>
+                            <li><a href="https://neuralroots.ai/services/security/">Security</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://neuralroots.ai/blogs/">Blogs</a></li>
+                    <li><a href="https://neuralroots.ai/contact-us/">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div id="mobile-menu-toggle">&#9776;</div>
+        </div>
+    </div>
+</header>
+
+<div id="mobile-menu-container">
+    <div id="mobile-menu">
+        <ul>
+            <li><a href="https://neuralroots.ai/">Home</a></li>
+            <li><a href="https://neuralroots.ai/solutions/">Solutions</a></li>
+            <li class="menu-item-has-children"><a href="https://neuralroots.ai/service/">Services</a>
+                <ul class="sub-menu">
+                    <li><a href="https://neuralroots.ai/services/consulting/">Consulting</a></li>
+                    <li><a href="https://neuralroots.ai/services/implementation/">Implementation</a></li>
+                    <li><a href="https://neuralroots.ai/services/enablement/">Enablement</a></li>
+                    <li><a href="https://neuralroots.ai/services/security/">Security</a></li>
+                </ul>
+            </li>
+            <li><a href="https://neuralroots.ai/blogs/">Blogs</a></li>
+            <li><a href="https://neuralroots.ai/contact-us/">Contact Us</a></li>
+        </ul>
+    </div>
+</div>
+
+    <div class="divi-user-info-container">
+        <h1 class="divi-form-heading mb-4">Welcome</h1>
+        <form id="userInfoForm" action="/Assesment-Templates/backend/process.php" method="POST">
+            <div class="divi-form-group">
+                <label for="name-prefix" class="divi-form-label">Name Prefix *</label>
+                <select id="name-prefix" name="name_prefix" class="divi-form-input form-control" required>
+                    <option value="" disabled selected>Prefix</option>
+                    <option value="MR">Mr</option>
+                    <option value="MRS">Mrs</option>
+                    <option value="MS">Ms</option>
+                    <option value="DR">Dr</option>
+                    <option value="PROF">Prof</option>
+                </select>
+            </div>
+            <div class="divi-form-group">
+                <label for="first-name" class="divi-form-label">First Name *</label>
+                <input type="text" id="first-name" name="first_name" class="divi-form-input form-control" placeholder="Enter your first name" required>
+            </div>
+            <div class="divi-form-group">
+                <label for="last-name" class="divi-form-label">Last Name *</label>
+                <input type="text" id="last-name" name="last_name" class="divi-form-input form-control" placeholder="Enter your last name" required>
+            </div>
+            <div class="divi-form-group">
+                <label for="company-name" class="divi-form-label">Company Name *</label>
+                <input type="text" id="company-name" name="company_name" class="divi-form-input form-control" placeholder="Enter your company name" required>
+            </div>
+            <div class="divi-form-group">
+                <label for="job-role" class="divi-form-label">Job Role *</label>
+                <input type="text" id="job-role" name="job_role" class="divi-form-input form-control" placeholder="Enter your job role" required>
+            </div>
+            <div class="divi-form-group">
+                <label for="mobile-number" class="divi-form-label">Mobile Number (Optional)</label>
+                <input type="tel" id="mobile-number" name="mobile_number" class="divi-form-input form-control" placeholder="Enter here">
+            </div>
+            <div class="divi-form-group">
+                <label for="email" class="divi-form-label">Business Email *</label>
+                <input type="email" id="email" name="email" class="divi-form-input form-control" placeholder="Enter your email address" required>
+                 <small id="emailError" class="text-danger"></small> <!-- Error message element -->
+            </div>
+            <div class="divi-form-group">
+                <button type="button" id="sendVerificationBtn" class="divi-form-btn btn btn-primary btn-block">Send Verification Code</button>
+            </div>
+            <div id="verificationSection" style="display: none;">
+                <div class="divi-form-group">
+                    <label for="verificationCode" class="divi-form-label">Verification Code</label>
+                    <input type="text" id="verificationCode" name="verification_code" class="divi-form-input form-control" placeholder="Enter verification code" required>
+                </div>
+                
+                 <div id="verificationError" class="text-danger" style="display: none;"></div> 
+                 
+                <div id="timer" class="divi-form-timer text-muted mb-2"></div>
+                <button type="button" id="confirmBtn" class="divi-form-btn btn btn-success btn-block mb-3">Confirm</button>
+            </div>
+            <div class="divi-form-disclaimer">
+                <h2>Disclaimer:</h2>
+                <div class="divi-form-disclaimer-content" id="disclaimerContent">
+                    <p>The recommendations and suggestions outlined in this document are intended to serve as a guide for the adoption and implementation of AI solutions tailored to your business needs. While these recommendations are designed to assist your organization in navigating the complexities of AI integration, they should not be regarded as exhaustive or definitive solutions. Every business operates within its own unique context, and as such, further analysis and customization may be necessary to meet your specific objectives. The responsibility for the application and execution of these suggestions rests solely with your organization. We do not assume any liability for the decisions or outcomes that arise from following the advice presented in this document.</p>
+                </div>
+                <button type="button" class="divi-form-disclaimer-toggle" id="disclaimerToggle">Show More</button>
+            </div>
+        </form>
+    </div>
+
+   <!-- Success Modal -->
+<div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="successModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="successModalLabel">Verification Completed</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <!--<div class="modal-body">-->
+                <!--Verification Completed.-->
+            <!--</div>-->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="okayBtn">Proceed</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+    <footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <div class="footer-logo">
+                <img src="https://neuralroots.ai/wp-content/uploads/2024/09/all-logos-1.png" alt="Neural Roots Logo">
+            </div>
+        </div>
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="https://neuralroots.ai/">Home</a></li>
+                <li><a href="https://neuralroots.ai/solution/">Solutions</a></li>
+                <li><a href="https://neuralroots.ai/service/">Services</a></li>
+                <li><a href="https://neuralroots.ai/blogs/">Blogs</a></li>
+                <li><a href="https://neuralroots.ai/contact-us/">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Legal</h3>
+            <ul>
+                <li><a href="https://neuralroots.ai/privacy-policy/">Privacy Policy</a></li>
+                <li><a href="https://neuralroots.ai/terms-conditions/">Terms and Conditions</a></li>
+            </ul>
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/company/neural-roots-ai" aria-label="LinkedIn"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg></a>
+                <a href="https://x.com/NeuralRoots" aria-label="X (formerly Twitter)">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="footer-section">
+            <h3>Get in Touch</h3>
+            <p>Call Us: <a href="tel:+1-917-300-0680">+1-917-300-0680</a> | <a href="tel:+1-917-546-6749">+1-917-546-6749</a> | <a href="tel:+91-9845607645">+91-9845607645</a></p>
+            <p>Email: <a href="mailto:info@neuralroots.ai">info@neuralroots.ai</a></p>
+            <p>USA | UK | India</p>
+        </div>
+    </div>
+    <div class="copyright">
+        Copyright ©2024 - Neural Roots - All rights reserved | Designed by Market Bird
+    </div>
+</footer>
+
+    <!-- JS Libraries -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/Assesment-Templates/frontend/js/user-info.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script>
+  
+//         var iti = window.intlTelInput(document.querySelector("#mobile-number"), {
+//         initialCountry: "auto",
+//         separateDialCode: true,
+//         preferredCountries: ["us", "gb", "in"],
+//         utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+//         geoIpLookup: function(callback) {
+//             $.get("https://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+//                 var countryCode = (resp && resp.country) ? resp.country : "us";
+//                 callback(countryCode);
+//             });
+//         }
+//     });
+
+//     // Disclaimer toggle functionality
+//     $('#disclaimerToggle').on('click', function() {
+//         var $content = $('#disclaimerContent');
+//         var $button = $(this);
+//         $content.toggleClass('expanded');
+//         $button.text($content.hasClass('expanded') ? 'Show Less' : 'Show More');
+//     });
+
+// $(document).ready(function() {
+//     // Disable the send verification button initially
+//     $('#sendVerificationBtn').prop('disabled', true);
+
+//     // Email validation function
+//     function validateEmail(email) {
+//         var emailError = $('#emailError');
+//         if (email.includes('@gmail.com')) {
+//             emailError.text('Please enter a valid business email address. Gmail is not allowed.');
+//             $('#sendVerificationBtn').prop('disabled', true); // Disable button if email is invalid
+//             return false;
+//         } else {
+//             emailError.text(''); // Clear the error message
+//             $('#sendVerificationBtn').prop('disabled', false); // Enable button if email is valid
+//             return true;
+//         }
+//     }
+
+//     // Revalidate email input on each change
+//     $('#email').on('input', function() {
+//         var email = $(this).val().trim();
+//         validateEmail(email); // Revalidate email every time input changes
+//     });
+
+//     // Form submission handling
+//     $('#userInfoForm').on('submit', function(event) {
+//         event.preventDefault();
+//         var email = $('#email').val().trim();
+//         if (validateEmail(email)) {
+//             submitForm();
+//         } else {
+//             alert('Please correct your email address to proceed.');
+//         }
+//     });
+
+//     $('#sendVerificationBtn').on('click', function() {
+//         var email = $('#email').val().trim();
+//         if (validateEmail(email)) {
+//             // Logic for sending the verification code
+//             $('#verificationSection').show();
+//         } else {
+//             alert('Please enter a valid business email to proceed.');
+//         }
+//     });
+
+//     $('#confirmBtn').on('click', function() {
+//         var verificationCode = $('#verificationCode').val().trim();
+//         var email = $('#email').val().trim();
+//         if (!validateEmail(email)) {
+//             alert('Please enter a valid business email before confirming.');
+//             return;
+//         }
+//         // Clear any previous error messages
+//         $('#verificationError').hide();
+
+//         // Validate the verification code
+//         $.ajax({
+//             url: '/Assesment-Templates/backend/verify_code.php', // Endpoint for verifying the code
+//             method: 'POST',
+//             data: { verification_code: verificationCode },
+//             dataType: 'json',
+//             success: function(response) {
+//                 console.log('AJAX response:', response); // Log the response to verify its structure
+//                 if (response.status === 'success') {
+//                     // Hide the error message if the code is correct
+//                     $('#verificationError').hide();
+//                     // Show the success modal
+//                     $('#successModal').modal('show');
+//                 } else {
+//                     $('#verificationError').text(response.message || "Invalid verification code. Please try again.").show();
+//                 }
+//             },
+//             error: function(xhr, status, error) {
+//                 console.error('AJAX Error:', {xhr: xhr, status: status, error: error});
+//                 alert('An error occurred while verifying the code. Please try again.');
+//             }
+//         });
+//     });
+
+//     $('#okayBtn').on('click', function() {
+//         $('#successModal').modal('hide');
+//         submitForm();
+//     });
+
+//     function submitForm() {
+//         var mobileNumber = $('#mobile-number').val().trim();
+
+//         if (mobileNumber !== '' && !iti.isValidNumber()) {
+//             alert("Please enter a valid phone number or leave it blank.");
+//             return;
+//         }
+
+//         if (mobileNumber !== '') {
+//             var fullNumber = iti.getNumber();
+//             $('#mobile-number').val(fullNumber);
+//         }
+
+//         var formData = $('#userInfoForm').serialize();
+
+//         $.ajax({
+//             url: '/Assesment-Templates/backend/process.php',
+//             method: 'POST',
+//             data: formData,
+//             dataType: 'json',
+//             success: function(response) {
+//                 if (response.success) {
+//                     localStorage.setItem('userFirstName', response.first_name);
+//                     localStorage.setItem('userLastName', response.last_name);
+//                     localStorage.setItem('userId', response.user_id);
+
+//                     var redirectUrl = `/Assesment-Templates/frontend/templates/step-1.html?timestamp=${new Date().getTime()}`;
+//                     window.location.href = redirectUrl;
+//                 } else {
+//                     alert('Error: ' + (response.message || 'Unknown error occurred'));
+//                 }
+//             },
+//             error: function(xhr, status, error) {
+//                 console.error('AJAX Error:', {xhr: xhr, status: status, error: error});
+//                 alert('An error occurred. Please check the console for more details.');
+//             }
+//         });
+//     }
+// });
+
+$(document).ready(function() {
+    // Initialize intl-tel-input for the mobile number field
+    var iti = window.intlTelInput(document.querySelector("#mobile-number"), {
+        initialCountry: "auto",
+        separateDialCode: true,
+        preferredCountries: ["us", "gb", "in"],
+        utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+        geoIpLookup: function(callback) {
+            $.get("https://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+                var countryCode = (resp && resp.country) ? resp.country : "us";
+                callback(countryCode);
+            });
+        }
+    });
+
+    // Disable the send verification button initially
+    $('#sendVerificationBtn').prop('disabled', true);
+
+    // Email validation function
+    function validateEmail(email) {
+        var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    }
+
+    // Check if email is Gmail
+    function isGmail(email) {
+        return email.toLowerCase().endsWith('@gmail.com');
+    }
+
+    // Check if email exists in the database
+    function checkEmailExists(email) {
+        if (!email) {
+            $('#emailError').text('');
+            $('#sendVerificationBtn').prop('disabled', true);
+            return;
+        }
+
+        if (!validateEmail(email)) {
+            $('#emailError').text('Please enter a valid email address.');
+            $('#sendVerificationBtn').prop('disabled', true);
+            return;
+        }
+
+        if (isGmail(email)) {
+            $('#emailError').text('Please enter a valid business email address. Gmail is not allowed.');
+            $('#sendVerificationBtn').prop('disabled', true);
+            return;
+        }
+
+        $.ajax({
+            url: '/Assesment-Templates/backend/check_email.php',
+            method: 'POST',
+            data: { email: email },
+            dataType: 'json',
+            success: function(response) {
+                if (!response.success) {
+                    var errorMessage = 'This email already exists. For further information, please contact us at <a href="mailto:sales@neuralroots.ai">sales@neuralroots.ai</a>';
+                    $('#emailError').html(errorMessage);
+                    $('#sendVerificationBtn').prop('disabled', true);
+                } else {
+                    $('#emailError').text('');
+                    $('#sendVerificationBtn').prop('disabled', false);
+                }
+            },
+            error: function() {
+                $('#emailError').text('An error occurred while checking the email. Please try again.');
+                $('#sendVerificationBtn').prop('disabled', true);
+            }
+        });
+    }
+
+    // Validate email input on each change
+    $('#email').on('change', function() {
+        var email = $(this).val().trim();
+        checkEmailExists(email);
+    });
+
+    // Disclaimer toggle functionality
+    $('#disclaimerToggle').on('click', function() {
+        var $content = $('#disclaimerContent');
+        var $button = $(this);
+        $content.toggleClass('expanded');
+        $button.text($content.hasClass('expanded') ? 'Show Less' : 'Show More');
+    });
+
+    // Form submission handling
+    $('#userInfoForm').on('submit', function(event) {
+        event.preventDefault();
+        var email = $('#email').val().trim();
+        if (validateEmail(email) && !isGmail(email)) {
+            submitForm();
+        } else {
+            alert('Please enter a valid business email address to proceed.');
+        }
+    });
+
+    $('#sendVerificationBtn').on('click', function() {
+        var email = $('#email').val().trim();
+        if (validateEmail(email) && !isGmail(email)) {
+            // Logic for sending the verification code
+            $('#verificationSection').show();
+            startTimer(300); // Start a 5-minute timer
+        } else {
+            alert('Please enter a valid business email to proceed.');
+        }
+    });
+
+    $('#confirmBtn').on('click', function() {
+        var verificationCode = $('#verificationCode').val().trim();
+        var email = $('#email').val().trim();
+        if (!validateEmail(email) || isGmail(email)) {
+            alert('Please enter a valid business email before confirming.');
+            return;
+        }
+        // Clear any previous error messages
+        $('#verificationError').hide();
+
+        // Validate the verification code
+        $.ajax({
+            url: '/Assesment-Templates/backend/verify_code.php',
+            method: 'POST',
+            data: { verification_code: verificationCode },
+            dataType: 'json',
+            success: function(response) {
+                console.log('AJAX response:', response);
+                if (response.status === 'success') {
+                    $('#verificationError').hide();
+                    $('#successModal').modal('show');
+                } else {
+                    $('#verificationError').text(response.message || "Invalid verification code. Please try again.").show();
+                }
+            },
+            error: function(xhr, status, error) {
+                console.error('AJAX Error:', {xhr: xhr, status: status, error: error});
+                alert('An error occurred while verifying the code. Please try again.');
+            }
+        });
+    });
+
+    $('#okayBtn').on('click', function() {
+        $('#successModal').modal('hide');
+        submitForm();
+    });
+
+    function submitForm() {
+        var mobileNumber = $('#mobile-number').val().trim();
+
+        if (mobileNumber !== '' && !iti.isValidNumber()) {
+            alert("Please enter a valid phone number or leave it blank.");
+            return;
+        }
+
+        if (mobileNumber !== '') {
+            var fullNumber = iti.getNumber();
+            $('#mobile-number').val(fullNumber);
+        }
+
+        var formData = $('#userInfoForm').serialize();
+
+        $.ajax({
+            url: '/Assesment-Templates/backend/process.php',
+            method: 'POST',
+            data: formData,
+            dataType: 'json',
+            success: function(response) {
+                if (response.success) {
+                    localStorage.setItem('userFirstName', response.first_name);
+                    localStorage.setItem('userLastName', response.last_name);
+                    localStorage.setItem('userId', response.user_id);
+
+                    var redirectUrl = `/Assesment-Templates/frontend/templates/step-1.html?timestamp=${new Date().getTime()}`;
+                    window.location.href = redirectUrl;
+                } else {
+                    alert('Error: ' + (response.message || 'Unknown error occurred'));
+                }
+            },
+            error: function(xhr, status, error) {
+                console.error('AJAX Error:', {xhr: xhr, status: status, error: error});
+                alert('An error occurred. Please check the console for more details.');
+            }
+        });
+    }
+
+    function startTimer(duration) {
+        var timer = duration, minutes, seconds;
+        var timerDisplay = $('#timer');
+        var interval = setInterval(function () {
+            minutes = parseInt(timer / 60, 10);
+            seconds = parseInt(timer % 60, 10);
+
+            minutes = minutes < 10 ? "0" + minutes : minutes;
+            seconds = seconds < 10 ? "0" + seconds : seconds;
+
+            timerDisplay.text(minutes + ":" + seconds);
+
+            if (--timer < 0) {
+                clearInterval(interval);
+                timerDisplay.text("Time expired");
+                $('#confirmBtn').prop('disabled', true);
+            }
+        }, 1000);
+    }
+});
+
+</script>
+
+    <script>
+    document.getElementById('mobile-menu-toggle').addEventListener('click', function() {
+        document.getElementById('mobile-menu-container').style.display = 'block';
+    });
+
+    document.getElementById('mobile-menu-container').addEventListener('click', function(e) {
+        if (e.target === this) {
+            this.style.display = 'none';
+        }
+    });
+
+    var mobileMenuItems = document.querySelectorAll('#mobile-menu .menu-item-has-children');
+    mobileMenuItems.forEach(function(item) {
+        item.addEventListener('click', function(e) {
+            if (e.target.tagName === 'A' && e.target.parentElement.classList.contains('menu-item-has-children')) {
+                e.preventDefault();
+                this.classList.toggle('active');
+            }
+        });
+    });
+</script>
+</body>
+</html>
